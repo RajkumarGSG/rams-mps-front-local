@@ -69,15 +69,7 @@ export const trafficInstallationApi = {
 
   getImportTemplate() { return apiGet('/rdb/traffic_installation', 'traffic_import_template', {}, false, 'blob'); },
 
-  // getImportTemplate() {
-  //     return {
-  //       url: '/rdb/traffic_installation/traffic_import_template',
-  //       method: 'GET',
-  //       responseType: 'blob'
-  //     };
-  //   },
-
-  importTrafficExcel(file, traffic_installation_id) {
+  uploadTrafficInstallationFile(file, traffic_installation_id) {
     return apiPost(
       `/rdb/traffic_installation/traffic_import/?traffic_installation_id=${traffic_installation_id}`,
       file,

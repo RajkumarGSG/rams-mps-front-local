@@ -30,8 +30,9 @@ Description: form for bulk import/upload of road data.
           <md-button class="md-success md-raised" @click="templateDownload" :disabled="!selectedImportType">
             {{ $t('buttons.download_template') }}
           </md-button>
-          <md-button v-if="isBtnAllowed('ImportButton')" class="md-success md-raised" native-type="submit"
+          <md-button class="md-success md-raised" native-type="submit" 
             @click.native.prevent="validate" :disabled="uploadDisabled">
+            <!-- v-if="isBtnAllowed('ImportButton')" TODO: Uncomment it -->
             <md-icon>upload</md-icon>
             {{ $t('buttons.import') }}
           </md-button>
@@ -109,7 +110,14 @@ Description: form for bulk import/upload of road data.
         getImporttypes: 'LOAD_ALL_TRAFFIC_INSTALLATIONS',
         getImportTemplate: 'GET_TRAFFIC_INSTALLATION_IMPORT_TEMPLATE',
       }),
-      ...mapActions(['GET_ROAD_IMPORT_TEMPLATE', 'GET_SECTION_IMPORT_TEMPLATE', 'IMPORT_ROAD', 'IMPORT_SECTION', `GET_TRAFFIC_INSTALLATION_IMPORT_TEMPLATE`]),
+      ...mapActions([
+                  'GET_ROAD_IMPORT_TEMPLATE', 
+                  'GET_SECTION_IMPORT_TEMPLATE', 
+                  'IMPORT_ROAD', 
+                  'IMPORT_SECTION', 
+                  `GET_TRAFFIC_INSTALLATION_IMPORT_TEMPLATE`,
+                  `IMPORT_TRAFFIC_INSTALLATION_EXCEL`
+                ]),
 
       onClose,
 
@@ -130,10 +138,9 @@ Description: form for bulk import/upload of road data.
       },
 
       async validate() {
+       
         const fileInfo = `${this.$t('stdCols.name')}: ${this.importFile.name},
                           ${this.$t('upload.filesize', { size: this.importFile.size })}`
-
-        // Checks and validations
         let errors = []
         if (this.importFile.type.includes("image")) {
           errors.push(`${errors.length + 1}. ${this.$t('messages.wrong_file_type')}`)
@@ -148,13 +155,27 @@ Description: form for bulk import/upload of road data.
           return
         }
 
-        // We passed all validations - let's try to import
         this.uploadInProgress = true
+
         let formData = new FormData();
         formData.append('file', this.importFile)
+
+
         try {
+          if (!this.selectedImportType) {
+            this.$toast?.error?.('Please select an import type');
+            return;
+          }
+
+
           const action = this[`IMPORT_TRAFFIC_INSTALLATION_EXCEL`]
-          const res = await action(formData)
+          
+          const res = await action({ 
+                  formData: formData, 
+                  trafficInstallationId: this.selectedImportType })
+
+          console.log('Import response', res)
+
           this.status = res.msg + ", " + res.result
           this.batch_id = res.batch_id
           await successMessage(this.$t('route.import'), this.$t(`messages.import_file_queued`))

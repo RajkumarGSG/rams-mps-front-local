@@ -2,13 +2,14 @@
 File: road_network.js
 Description: implements API calls for the Road Network parameters (Regions, DEU, Roads, etc.)
 */
+import { trafficInstallationApi } from '@/api/road_network'; // make sure this is at the top
 import * as roadNetworkApi from "@/api/road_network";
 import { createActions, apiCall, handleApiCall } from '@/store/helpers/apicall_helpers';
 import { getUniqueValues } from '@/store/helpers/unique_values.js';
 
 const {
   regionApi, deuApi, roadApi, sectionApi, sectionGeometryApi, districtApi,
-  districtSectionApi, conditionApi, trafficSiteApi, trafficInstallationApi, homoSectionApi
+  districtSectionApi, conditionApi, trafficSiteApi, homoSectionApi
 } = roadNetworkApi;
 
 // Generationf of Actions: LOAD_XXX_LIST, LOAD_XXX_BY_ID, ADD_NEW_XXX, UPDATE_XXX, DELETE_XXX, CLEAR_XXX_LIST
@@ -78,13 +79,24 @@ export default {
       return await apiCall(trafficInstallationApi.getImportTemplate(), 'GET_TRAFFIC_INSTALLATION_IMPORT_TEMPLATE');
     },
 
-    async IMPORT_TRAFFIC_INSTALLATION_EXCEL({ commit }, { file, traffic_installation_id }) {
+   async IMPORT_TRAFFIC_INSTALLATION_EXCEL({ commit }, { formData, trafficInstallationId }) {
       return await apiCall(
-      trafficInstallationApi.importTrafficExcel(file, traffic_installation_id),
-      'IMPORT_TRAFFIC_INSTALLATION_EXCEL',
-      201
+        trafficInstallationApi.uploadTrafficInstallationFile(formData, trafficInstallationId),
+        'IMPORT_TRAFFIC_INSTALLATION_EXCEL'
       );
     },
+
+    
+    // async IMPORT_TRAFFIC_INSTALLATION_EXCEL({ commit }, { formData, trafficInstallationId }) {
+    //   return await apiCall(trafficInstallationApi.importData(formData, trafficInstallationId), 'IMPORT_TRAFFIC_INSTALLATION_EXCEL', 201);
+    // },
+
+    // async IMPORT_TRAFFIC_INSTALLATION_EXCEL({ commit }, { formData, trafficInstallationId }) {
+    //   const url = trafficInstallationApi.importData(trafficInstallationId); // e.g. builds: /rdb/traffic_installation/traffic_import/?traffic_installation_id=1
+    //   console.log('url:', url);
+    //   // return await apiCall(url, 'IMPORT_TRAFFIC_INSTALLATION_EXCEL', formData, 'post');
+    //   return await apiCall(url, 'IMPORT_TRAFFIC_INSTALLATION_EXCEL', 201);
+    // },
 
     // Additional actions for Sections
     async GET_REGION_ROAD_FROM_SECTION({ commit }, section_id) {
