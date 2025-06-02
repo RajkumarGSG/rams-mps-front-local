@@ -319,6 +319,9 @@ export default {
     },
 
     isScreenAllowed: (state, getters) => (screenName) => {
+      if (screenName == "ImportTrafficForm") // Rajkumar.Gs : ToDo: remove after this new screen is configured to allow
+        return true;
+
       return getters.isAllowed(screenName, 'Screen', 'Form');
     },
   }

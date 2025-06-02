@@ -88,6 +88,7 @@ export default {
           children: [
             { link: { name: 'Condition_Data', path: '/condition_data/condition' }, condition: () => this.isScreenAllowed('Condition') },
             { link: { name: 'Import', icon: 'upload', path: '/condition_data/upload' }, condition: () => this.isScreenAllowed('ConditionImportForm') },
+            { link: { name: 'import_traffic', icon: 'upload', path: '/condition_data/import' }, condition: () => this.isScreenAllowed('TrafficImportForm') },
           ]
         },
         {

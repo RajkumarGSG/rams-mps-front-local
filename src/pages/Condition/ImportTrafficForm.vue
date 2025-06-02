@@ -1,5 +1,5 @@
 <!--
-File: ImportForm.vue
+File: ImportTrafficForm.vue
 Description: form for bulk import/upload of road data.
 -->
 <template>
@@ -73,7 +73,7 @@ Description: form for bulk import/upload of road data.
 
     data() {
       return {
-        formName: 'ImportForm',
+        formName: 'ImportTrafficForm',
         eligible: false,
 
         importFile: null,

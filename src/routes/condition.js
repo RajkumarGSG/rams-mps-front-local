@@ -6,7 +6,8 @@ const Condition = () => import('@/pages/Condition/Condition.vue')
 const ConditionImportForm = () => import('@/pages/Condition/ConditionImportForm.vue')
 
 const Traffic = () => import('@/pages/Condition/Traffic.vue')
-const TrafficImportForm = () => import('@/pages/Condition/TrafficImportForm.vue')
+// const TrafficImportForm = () => import('@/pages/Condition/TrafficImportForm.vue')
+const ImportTrafficForm = () => import('@/pages/Condition/ImportTrafficForm.vue')
 
 const ConditionDataMenu = [
   { // Condition data
@@ -25,10 +26,15 @@ const ConditionDataMenu = [
     name: 'Traffic_data',
     component: Traffic,
   },
-  { // Trafficimport
+  // { // Trafficimport
+  //   path: 'import',
+  //   name: 'import_traffic',
+  //   component: TrafficImportForm,
+  // },
+  { // Import Traffic
     path: 'import',
     name: 'import_traffic',
-    component: TrafficImportForm,
+    component: ImportTrafficForm,
   },
 
 ]

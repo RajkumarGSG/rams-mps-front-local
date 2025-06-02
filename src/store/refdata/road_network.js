@@ -69,6 +69,23 @@ export default {
       return await apiCall(roadApi.import_road(import_file), 'IMPORT_ROAD', 201);
     },
 
+    // Additional actions for Traffic Installation
+    async LOAD_ALL_TRAFFIC_INSTALLATIONS({ commit }) {
+      return await apiCall(trafficInstallationApi.getAll(), 'LOAD_ALL_TRAFFIC_INSTALLATIONS');
+    },
+
+    async GET_TRAFFIC_INSTALLATION_IMPORT_TEMPLATE({ commit }) {
+      return await apiCall(trafficInstallationApi.getImportTemplate(), 'GET_TRAFFIC_INSTALLATION_IMPORT_TEMPLATE');
+    },
+
+    async IMPORT_TRAFFIC_INSTALLATION_EXCEL({ commit }, { file, traffic_installation_id }) {
+      return await apiCall(
+      trafficInstallationApi.importTrafficExcel(file, traffic_installation_id),
+      'IMPORT_TRAFFIC_INSTALLATION_EXCEL',
+      201
+      );
+    },
+
     // Additional actions for Sections
     async GET_REGION_ROAD_FROM_SECTION({ commit }, section_id) {
       return await apiCall(sectionApi.get_region_road_id_from_section(section_id), 'GET_REGION_ROAD_FROM_SECTION');
