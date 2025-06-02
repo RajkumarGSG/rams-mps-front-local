@@ -1,0 +1,128 @@
+{
+  "basemap_tiles": [
+    {
+      "name": "osm",
+      "max_zoom": 18,
+      "layers": [
+        {
+          "category": "osm",
+          "props": {
+            "crossOrigin": "anonymous",
+            "wrapX": false,
+            "attributions": "RAMS Project"
+          }
+        }
+      ]
+    },
+    {
+      "name": "cartodbpositron",
+      "layers": [
+        {
+          "category": "xyz",
+          "props": {
+            "url": "https://cartodb-basemaps-{1-4}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png"
+          }
+        }
+      ]
+    },
+    {
+      "name": "stamentonerlite",
+      "layers": [
+        {
+          "category": "stamen",
+          "props": {
+            "layer": "toner-lite"
+          }
+        }
+      ]
+    },
+    {
+      "name": "cartodbpositronnolabels",
+      "layers": [
+        {
+          "category": "xyz",
+          "props": {
+            "url": "https://{1-4}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png"
+          }
+        }
+      ]
+    },
+    {
+      "name": "satellite",
+      "layers": [
+        {
+          "category": "xyz",
+          "props": {
+            "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+          }
+        }
+      ]
+    },
+    {
+      "name": "stamentonerbackground",
+      "layers": [
+        {
+          "category": "stamen",
+          "props": {
+            "layer": "toner-background"
+          }
+        }
+      ]
+    },
+    {
+      "name": "cartodbdark_matter",
+      "layers": [
+        {
+          "category": "xyz",
+          "props": {
+            "url": "https://cartodb-basemaps-{1-4}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png"
+          }
+        }
+      ]
+    },
+    {
+      "name": "stamenterrain",
+      "layers": [
+        {
+          "category": "stamen",
+          "props": {
+            "layer": "terrain"
+          }
+        }
+      ]
+    },
+    {
+      "name": "stamentonerlabels",
+      "layers": [
+        {
+          "category": "stamen",
+          "props": {
+            "layer": "toner-labels"
+          }
+        }
+      ]
+    },
+    {
+      "name": "cartodbpositrononlylabels",
+      "layers": [
+        {
+          "category": "xyz",
+          "props": {
+            "url": "https://{1-4}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}{r}.png"
+          }
+        }
+      ]
+    },
+    {
+      "name": "stamenwatercolor",
+      "layers": [
+        {
+          "category": "stamen",
+          "props": {
+            "layer": "watercolor"
+          }
+        }
+      ]
+    }
+  ]
+}

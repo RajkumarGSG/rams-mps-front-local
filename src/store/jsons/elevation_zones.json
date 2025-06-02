@@ -1,0 +1,110 @@
+[
+  {
+    "region_id": 1,
+    "region_description": "Чуйская область",
+    "region_description_en": "CHUY",
+    "zone_1": 516874,
+    "zone_2": 353557,
+    "zone_3": 531898,
+    "zone_4": 553845,
+    "zone_5": 30037,
+    "zone_6": 0,
+    "total": 1986211
+  },
+  {
+    "region_id": 2,
+    "region_description": "Нарынская область",
+    "region_description_en": "NARYN",
+    "zone_1": 0,
+    "zone_2": 346526,
+    "zone_3": 1508969,
+    "zone_4": 2352711,
+    "zone_5": 281864,
+    "zone_6": 3276,
+    "total": 4493346
+  },
+  {
+    "region_id": 3,
+    "region_description": "Таласская область",
+    "region_description_en": "TALAS",
+    "zone_1": 88424,
+    "zone_2": 408809,
+    "zone_3": 388980,
+    "zone_4": 256726,
+    "zone_5": 3736,
+    "zone_6": 0,
+    "total": 1146675
+  },
+  {
+    "region_id": 4,
+    "region_description": "Иссык-Кульская область",
+    "region_description_en": "ISSYK-KUL",
+    "zone_1": 0,
+    "zone_2": 1187438,
+    "zone_3": 691906,
+    "zone_4": 1721938,
+    "zone_5": 618174,
+    "zone_6": 17535,
+    "total": 4236991
+  },
+  {
+    "region_id": 10,
+    "region_description": "Ошская область",
+    "region_description_en": "OSH",
+    "zone_1": 125648,
+    "zone_2": 571330,
+    "zone_3": 805969,
+    "zone_4": 1073009,
+    "zone_5": 316378,
+    "zone_6": 20518,
+    "total": 2912852
+  },
+  {
+    "region_id": 11,
+    "region_description": "Жалал-абадская область",
+    "region_description_en": "JALAL-ABAD",
+    "zone_1": 351215,
+    "zone_2": 1278239,
+    "zone_3": 1213832,
+    "zone_4": 520365,
+    "zone_5": 3869,
+    "zone_6": 0,
+    "total": 3367520
+  },
+  {
+    "region_id": 12,
+    "region_description": "Баткенская область",
+    "region_description_en": "BATKEN",
+    "zone_1": 178152,
+    "zone_2": 585544,
+    "zone_3": 389303,
+    "zone_4": 367245,
+    "zone_5": 181586,
+    "zone_6": 1343,
+    "total": 1703173
+  },
+  {
+    "region_id": 100,
+    "region_description": "г. Бишкек",
+    "region_description_en": "Bishkek city",
+    "zone_1": 14555,
+    "zone_2": 460,
+    "zone_3": 0,
+    "zone_4": 0,
+    "zone_5": 0,
+    "zone_6": 0,
+    "total": 15015
+  },
+  {
+    "region_id": 101,
+    "region_description": "г. Ош",
+    "region_description_en": "Osh city",
+    "zone_1": 1266,
+    "zone_2": 1831,
+    "zone_3": 0,
+    "zone_4": 0,
+    "zone_5": 0,
+    "zone_6": 0,
+    "total": 3097
+  }
+]

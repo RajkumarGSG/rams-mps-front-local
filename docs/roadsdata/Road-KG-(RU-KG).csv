@@ -1,0 +1,770 @@
+PLUAD_name;DEP_num;NameEn;NameRus;NameKg;Length;type
+RD1;1;"Bishkek-""Manas"" airport";"Бишкек - Аэропорт ""Манас""";"Бишкек - ""Манас Аэропорту""";36,5;inter
+RD1;1;Bishkek-Kuntuu-Shopokov;Бишкек - Кунтуу - Шопоков;Бишкек - Кунтуу - Шопоков;27;nat
+RD1;1;Sokuluk-Kamyshanovka ;Сокулук - Камышановка;Сокулук - Камышановка;39;nat
+RD1;1;Romanovka-50 let Kamyshanovka;Романовка - 50 лет Камышановка;Романовка - 50 лет Камышановка;34;nat
+RD1;1;Kirkomstrom-Jal-Alamedin ;Киркомстром - Джал - Аламедин;Киркомстром - Жал - Аламедин;14;loc
+RD1;1;Jal-Orok ;Джал - Орок;Жал - Орок;3;loc
+RD1;1;Kara Sakal-Belek ;Кара Сакал - Белек;Кара Сакал - Белек;11;loc
+RD1;1;Romanovka-Zhany Zher-23km D.Shorgo ;Романовка - Джаны Жер - 23 км Д.Шорго;Романовка - Джаны Жер - 23 км Д.Шорго;8;loc
+RD1;1;Tokbaev-Baigeldi with access road to Kuntuu v. ;Токбаев - Байгельди с подъездной дорогой к селу Кунтуу;Токбаев - Байкелди Кунтуу айылына кирме жолу менен;12;loc
+RD1;1;Sokuluk-Panfilov-Chatkul ;Сокулук - Панфилов - Чаткуль;Сокулук - Панфилов - Чаткул;16;loc
+RD1;1;Sokuluk-Aral ;Сокулук - Арал;Сокулук - Арал;5;loc
+RD1;1;Sokuluk-Zhalamysh-MTF ;Сокулук - Жаламыш - МТФ;Сокулук - Жаламыш - МТФ;40,7;loc
+RD1;1;Karasakal-Tokbaev with access road to Kyzyltuu v.;Карасакал - Токбаев с подъездной дорогой к селу Кызылтуу;Карасакал - Токбаев Кызылтуу айылына кирме жолу менен;14;loc
+RD1;1;Tyuz-Sokuluk-Vodohranilishe;Тюз - Сокулук - Водохранилище;Т?з - Сокулук - Водохранилище;8;loc
+RD1;1;Baly-stan kolhoza ;Балы - стан колхоза;Балы - стан колхоза;19;loc
+RD1;1;Access road to Shalta v.;Подъездная дорога к селу Шалта;Шалта айылына кирме жолу;2;loc
+RD1;1;Baitik-Archaly-Jal ;Байтик - Арчалы - Джал;Байтик - Арчалы - Жал;9;loc
+RD1;1;Baigeldi-Jal-Orok ;Байгельди - Джал - Орок;Байкелди - Жал - Орок;2,8;loc
+RD1;1;"Chonaryk-""Alaarcha"" National Park";"ЧонАрык - Национальный парк ""Ала-Арча""";"Чон-Арык - Национальный парк ""Ала-Арча""";29,4;nat
+RD1;25;Balykchy-Bokonbayevo-Karakol;Балыкчы - Боконбаево - Каракол ;Балыкчы - Боконбаево - Каракол ;56;inter
+RD1;25;Balykchy-Ananyevo-Karakol;Балыкчы - Ананьево - Каракол;Балыкчы - Ананьево - Каракол;40;inter
+RD1;25;Bishkek-Torugart;Бишкек - Торугарт;Бишкек - Торугарт;56;inter
+RD1;25;Balykchy-Bokonbayevo-Karakol 16 km Bishkek-Torugart 194 км;Балыкчы - Боконбаево - Каракол 16 км Бишкек - Торугарт 194 км;Балыкчы - Боконбаево - Каракол 16 км Бишкек - Торугарт 194 км;12;nat
+RD1;25;Semiz Bel-Ottuk ;Семиз Бел - Оттук;Семиз Бел - Оттук;30;nat
+RD1;25;Bokonbaevo-Don Tala-Ottuk;Боконбаево - Дон Тала - Оттук;Боконбаево - Дон Тала - Оттук;44;nat
+RD1;25;Ala Bash-Sary Bel;Ала Баш - Сары Бел;Ала Баш - Сары Бел;45;loc
+RD1;25;Kara Tala-Tuura Suu;Кара Тала - Туура Суу;Кара Тала - Туура Суу;26;loc
+RD1;25;Ak-Terek-Don Talaa;Ак Терек - Дон Талаа;Ак Терек - Дон Талаа;15;loc
+RD1;25;Sary Kamysh-Chok Tal-Oi Bulak;Сары Камыш - Чок Тал - Ой Булак;Сары Камыш - Чок Тал - Ой Булак;10;loc
+RD1;25;Chyrpykty-Achyk Tash;Чырпыкты - Ачык Таш;Чырпыкты - Ачык Таш;9,5;loc
+RD1;25;Chyrpykty-Kabyrga;Чырпыкты - Кабырга ;Чырпыкты - Кабырга ;16,1;loc
+RD1;25;Karakol-Barskoon through Enilchek v.;Каракол - Барскоон через село Энилчек;Каракол - Барскоон через село Энилчек;136;inter
+RD1;25;Boz-Uchuk-sh.Zhyrgalan;Боз - Учук - Жыргалан;Боз - Учук - Жыргалан;30;nat
+RD1;25;Karakol-Razdolnoye-Sovetskoye-Syrzavod;Каракол - Раздольное - Советское - Сырзавод;Каракол - Раздольное - Советское - Сырзавод;51;nat
+RD1;25;Karkyra-Turuk-Sary Zhaz-Ottuk;Каркыра - Турук - Сары Жаз - Оттук;Каркыра - Турук - Сары Жаз - Оттук;76;nat
+RD1;25;Teploklyuchenka-Ak-Suu resort;Теплоключенка - парк Ак Суу;Теплоключенка - парк Ак Суу;7;nat
+RD1;25;Karakol c.-Karakol stow ;Каракол - урочище Каракол;Каракол - урочище Каракол;30;loc
+RD1;25;Leskhoz-Arashan stow;Лесхоз - Урочище Арашан;Лесхоз - Урочище Арашан;25;loc
+RD1;28;Gosdoroga-Uch Kaynar v.;Госдорога - село Уч Кайнар;Госдорога - село Уч Кайнар;6;loc
+RD1;28;Ak Bulun-Toktogul;Ак Булун - Токтогул;Ак Булун - Токтогул;8;loc
+RD1;28;Boz Uchuk-Enchilesh;Боз Учук - Энилчек;Боз Учук - Энилчек;4;loc
+RD1;28;Enilchek stow-Kaiyndy stow;урочище Энилчек - урочище Кайынды;урочище Энилчек - урочище Кайынды;45;loc
+RD1;28;Gosdoroga-Kaiyrma-Aryk;Госдорога - Кайырма - Арык;Госдорога - Кайырма - Арык;3;loc
+RD1;28;Gosdoroga-Ichke-Zhergez;Госдорога - Ичке - Жергез;Госдорога - Ичке - Жергез;2;loc
+RD1;28;Gosdoroga - Zholgolot v.;Госдорога - Жолголот;Госдорога - Жолголот;4;loc
+RD1;28;Orlinoye-Otradnoye;Орлиное - Отрадное;Орлиное - Отрадное;13;loc
+RD1;28;Gosdoroga - Oktyabr v. (Maman);Госдорога - село Октябрь (Маман);Госдорога - село Октябрь (Маман);3;loc
+RD1;28;Tegizchil-Uch-Kaynar v.;Тегизчил - Уч - Кайнар;Тегизчил - Уч - Кайнар;4;loc
+RD1;28;Basharino-Chymyndy Say;Башарино - Чымынды Сай;Башарино - Чымынды Сай;30;loc
+RD1;28;Tepke-Zhyldyz-Karakol;Тепке - Жылдыз - Каракол;Тепке - Жылдыз - Каракол;15;loc
+RD1;28;Gosdoroga-Karakol;Госдорога - Каракол;Госдорога - Каракол;14;loc
+RD1;28;Kerben-Alabuka-Chatcal;Кербен - Алабука - Чаткал;Кербен - Алабука - Чаткал;13;nat
+RD1;28;Alabuka-Kerby-Tashkomur;Алабука - Керби - Ташкомур;Алабука - Керби - Ташкомур;35;nat
+RD1;28;Kerben-Uchkorgon-Hydro Power Station-Shamaldysai;Кербен - Учкоргон - Гидроэлектростанция - Шамалдысай;Кербен - Учкоргон - Гидроэлектростанция - Шамалдысай;72;nat
+RD1;28;Kerben-Kashkasuu ;Кербен - Кашкасуу;Кербен - Кашкасуу;32;loc
+RD1;28;Karazhygach-Sarychelek lake ;Каражыгач - озеро Сарычелек;Каражыгач - озеро Сарычелек;40;loc
+RD1;28;Kosh Dobo-Munduz-Aksuu ;Кош Добо - Мундуз - Аксуу;Кош Добо - Мундуз - Аксуу;94;loc
+RD1;28;Top Jangak-Kashkasuu ;Топ Жангак - Кашкасуу;Топ Жангак - Кашкасуу;22;loc
+RD1;28;Kerben-Akdobo-Kulukdobo ;Кербен - Акдобо - Кулукдобо;Кербен - Акдобо - Кулукдобо;5;loc
+RD1;28;Bospuek-Zhergetal-Kapchygai ;Боспуек - Жергетал - Капчигай;Боспуек - Жергетал - Капчигай;23;loc
+RD1;28;Mukur-Itagar ;Мукур - Итагар;Мукур - Итагар;6;loc
+RD1;28;Karazhygach-Syny;Каражыгач - Сыны;Каражыгач - Сыны;6;loc
+RD1;28; Osh-Batken-Isfana with turning to Suluktu c.;Ош - Баткен - Исфана с поворотом на Сулукту;Ош - Баткен - Исфана с поворотом на Сулукту;123;inter
+RD1;40;Kairagach-Kulunda-Arka;Кайрагач - Кулунда - Арка;Кайрагач - Кулунда - Арка;65;nat
+RD1;40;Isfana-Andarak-Koktash;Исфана - Андарак - Кокташ;Исфана - Андарак - Кокташ;28;loc
+RD1;40;Samat-Zamboruch-Zharkyshtak;Самат - Замборуч - Жаркыштак;Самат - Замборуч - Жаркыштак;27;loc
+RD1;40;Isfana-Gordoy-Kekre;Исфана - Гордой - Кекре;Исфана - Гордой - Кекре;33;loc
+RD1;40;Karabulak-Toguzbulak;Карабулак - Тогузбулак;Карабулак - Тогузбулак;6;loc
+RD1;40;Isfana –Chukurbulak;Исфана - Чукурбулак;Исфана - Чукурбулак;43;loc
+RD1;40;Korgon-Katran-Baul;Коргон - Катран - Баул;Коргон - Катран - Баул;27;loc
+RD1;40;Beshkent-Margun;Бешкент - Маргун;Бешкент - Маргун;18;loc
+RD1;40;Margun-Darkum;Маргун - Даркум;Маргун - Даркум;18;loc
+RD1;40;Isfana-Akbulak;Исфана - Акбулак;Исфана - Акбулак;4;loc
+RD1;40;Katarn-Ozgorush;Катарн - Озгоруш;Катарн - Озгоруш;13;loc
+RD1;40;Sarybulak-Archaly-Oruktam ;Сары Булак - Оруктам;Сары Булак - Оруктам;176,7;nat
+RD1;40;Sarybulak-Son Kol ;Сарыбуак - Сон Кол;Сарыбуак - Сон Кол;90;nat
+RD1;40;Sarybulak-Lahol-Zherkochku ;Сары Булак - Лахол - Жеркочку;Сары Булак - Лахол - Жеркочку;23;nat
+RD1;40;Balgart-Zhyluusuu;Балгарт - Жылуусуу;Балгарт - Жылуусуу;35;nat
+RD1;40;Sarybulak-Kyzylbel-Akkyya;Сарыбулак - Кызылбел - Аккыя;Сарыбулак - Кызылбел - Аккыя;24;loc
+RD1;40;Naryn-Baetovo 83-20km ;Нарын - Баетово 83-20 км;Нарын - Баетово 83-20 км;37;nat
+RD1;40;Baetovo-Makmal ;Баетово - Макмал;Баетово - Макмал;134;nat
+RD1;40;Baetovo-Akbeyit ;Баетово - Акбейит;Баетово - Акбейит;69;nat
+RD1;40;Ugut-Alabuka-Zhenish (Kazarman?);Угут - Алабука - Жениш (Казарман?);Угут - Алабука - Жениш (Казарман?);42;nat
+RD1;40;Aktalchat-Kazarman ;Акталчат - Казарман;Акталчат - Казарман;25;nat
+RD1;40;Access to the bridge of Naryn r. ;Подъездная дорога к мосту через реку Нарын;Подъездная дорога к мосту через реку Нарын;2;nat
+RD1;40;Kurtka-Son Kol ;Куртка - Сон Кол;Куртка - Сон Кол;150;nat
+RD1;42;Naryn-V.Mai;Нарын - 5 Май;Нарын - 5 Май;31;nat
+RD1;42;Karabulak-Orto Syrt ;Карабулак - Орто Сырт;Карабулак - Орто Сырт;32;loc
+RD1;42;Gosdoroga Pioneer ;Госдорога Пионер;Госдорога Пионер;3;loc
+RD1;42;Kulttsentr-Tuurasuu ;Культцентр - Туурасуу;Культцентр - Туурасуу;40;loc
+RD1;42;Koshdobo-Bychan ;Кошдобо - Бычан;Кошдобо - Бычан;30;loc
+RD1;42;Alabuka-Kazarman (does not exist) ;Алабука - Казарман (не существует);Алабука - Казарман (не существует);48,5;loc
+RD1;42;Akchiy-Sarybel ;Акчий - Сарыбел;Акчий - Сарыбел;35;loc
+RD1;42;Son Kol-Kara Keche pass.;Сон Кол - Перевал Кара Кече;Сон Кол - Перевал Кара Кече;21;loc
+RD1;42;Sary Tash-Darootkorgon-Komsomolabad with access to Kyzyleshme v. and Jekendi v.;Сары Таш - Дарооткоргон - Комсомолобад с подъездной дорогой до села Жекенди;Сары Таш - Дарооткоргон - Комсомолобад с подъездной дорогой до села Жекенди;122;inter
+RD1;42;Uchkorgon-Darootkorgon;Уччкоргон - Дарооткоргон;Уччкоргон - Дарооткоргон;50;nat
+RD1;42;Darootkorgon-Jashtiliek;Дарооткоргон - Жаштилиек;Дарооткоргон - Жаштилиек;13;loc
+RD1;42;68th km of national road Achy Suu;68й км трассы Ачу Суу;68й км трассы Ачу Суу;62;loc
+RD1;42;Kerben-Alabuka-Chatkal;Кербен - Алабука - Чаткал;Кербен - Алабука - Чаткал;15;nat
+RD1;42;Alabuka-Kasan;Алабука - Касан ;Алабука - Касан ;14;nat
+RD1;42;Alabuka-Karavan;Алабука - Караван;Алабука - Караван;20;nat
+RD1;43;Alabuka-Zhanybazar;Алабука -Жаныбазар;Алабука -Жаныбазар;38;nat
+RD1;43;Kasansay-Akkorgon-Zhapasaldy;Касансай - Аккоргон - Жапасалды;Касансай - Аккоргон - Жапасалды;20;nat
+RD1;43;Yzar-Gulistan;Изар - Гулистан;Изар - Гулистан;20;nat
+RD1;43;Shekaftar-Airytam;Шекафтар - Айрытам;Шекафтар - Айрытам;30;nat
+RD1;43;Vodokhranilishche-Shekaftar-Pap;Водохранилище - шекафтар - Пап;Водохранилище - шекафтар - Пап;73;loc
+RD1;43;Shekaftar-Sumsar;Шекафтар - Сумсар;Шекафтар - Сумсар;12;loc
+RD1;43;Sumsar-Kaindy;Сумсар - Кайынды;Сумсар - Кайынды;18;loc
+RD1;43;Alabuka-Lesnaya dacha-Lager;Алабука - Лесная дача - лагерь;Алабука - Лесная дача - лагерь;19;loc
+RD1;43;Alabuka-Zhoybelent-Oruktu;Алабукаа - Жойбелент- Орукту;Алабукаа - Жойбелент- Орукту;10;loc
+RD1;43;Airytam-Karaunkur;Айрытам - Караункур;Айрытам - Караункур;15;loc
+RD1;43;Sada-Birleshken;Сада - Бирлешкен;Сада - Бирлешкен;13;loc
+RD1;43;Aktam-Pioner lager;Актам - Пионер - лагерь;Актам - Пионер - лагерь;15;loc
+RD1;43;Gava-Koktash-Arap;Гава - Кок Таш - Арап;Гава - Кок Таш - Арап;16;loc
+RD1;43;Kyzylata-Madaniyat;Кызылата - Маданият;Кызылата - Маданият;12;loc
+RD1;43;Kazarman-Aktalchat ;Казарман - Акталчат;Казарман - Акталчат;99;nat
+RD1;43;Jalalabat-Kazarman;Жалад-Абад - Казарман;Жалад-Абад - Казарман;52;nat
+RD1;954;Kazarman-Akmoynok ;Казарман - Акмойнок;Казарман - Акмойнок;50;loc
+RD1;954;Birdik-Aral-Karl Marx ;Бирдик - Арал - Карл Маркс;Бирдик - Арал - Карл Маркс;14;loc
+RD1;954;Kirov-Ornok-Dodomol ;Киров - Орнок - Додомол;Киров - Орнок - Додомол;34;loc
+RD1;954;Chatkaragay-Kaarmantuz ;Чаткарагай - Каармантуз;Чаткарагай - Каармантуз;40;loc
+RD1;954;Beshkol stow;Урочище Бешкол ;Урочище Бешкол ;12;loc
+RD1;954;Taraz - Talas - Suusamyr;Тараз -Талас - Суусамыр;Тараз -Талас - Суусамыр;28,5;inter
+RD1;954;Talas - Beshtash;Талас - Бешташ;Талас - Бешташ;76;nat
+RD1;954;Talas - Nyldy - Pokrovka;Талас - Нылды - Покровка;Талас - Нылды - Покровка;43;nat
+RD1;954;"Kyzyl Tuu ""Manas ordo""";"Кызыл Туу - ""Манас ордо""";"Кызыл Туу - ""Манас ордо""";3,4;nat
+RD1;954;Talas - Bakaiata;Талас - Бакай Ата;Талас - Бакай Ата;8;nat
+RD1;954;Kokoy - Kyzyltuu - Kumbez Manas;Кокой - Кызылтуу - Кумбез Манаса;Кокой - Кызылтуу - Кумбез Манаса;12,6;nat
+RD1;954;Nyldy - Chyrkanak;Нылды - Чырканак;Нылды - Чырканак;25;loc
+RD1;954;Tasharyk - Akzhar;Ташарык - Акжар;Ташарык - Акжар;6;loc
+RD1;954;"""Manas ordo"" - Ken Kol";"""Манас ордо "" - Кен Кол";"""Манас ордо "" - Кен Кол";31;loc
+RD1;954;Gosdoroga - Chon Chychkan;Госдорога - Чон Чычкан;Госдорога - Чон Чычкан;24;loc
+RD1;954;Zhergetal - Kalba;Жергетал - Калба;Жергетал - Калба;26;loc
+RD1;954;Kozuchak - Televyshka;Козучак - Телевышка;Козучак - Телевышка;6;loc
+RD1;954;Access road to Ogombayev v.;Подъездная дорога к селу Огомбаев;Подъездная дорога к селу Огомбаев;3;loc
+RD1;954;Talas - Balbal - Kozuchak;Талас - Балбал - Козучак;Талас - Балбал - Козучак;8;loc
+RD1;958;Access road to Aral v.;подъездная дорога к селу Арал;подъездная дорога к селу Арал;2;loc
+RD1;958;Access road to Karaoy v.;подъездная дорогак селу Караой;подъездная дорогак селу Караой;3;loc
+RD1;958;Osh-Batken-Isfana;Ош - Баткен - Исфана;Ош - Баткен - Исфана;101;inter
+RD1;958;Buzhum-Batken-Isfana;Бужум - Баткен - Исфана;Бужум - Баткен - Исфана;29;nat
+RD1;958;Batken-Chongara;Баткен - Чонгара;Баткен - Чонгара;40;nat
+RD1;958;Soh-Kan-Zardaly;Сох - Кан - Зардалы;Сох - Кан - Зардалы;85;loc
+RD1;958;Batken-Buzhum-Kyzylzhol;Баткен - Бужум - Кызылжол;Баткен - Бужум - Кызылжол;10;loc
+RD1;958;Batken-Rautkaut;Баткен - Рауткаут;Баткен - Рауткаут;20;loc
+RD2;8;Batken-Akturpak;Баткен - Актурпак;Баткен - Актурпак;4;loc
+RD2;8;Soh-Sai 0-6 km;Сох - Сай 0-6 км;Сох - Сай 0-6 км;6;loc
+RD2;8;Soh-Gaz;Сох - Газ;Сох - Газ;9;loc
+RD2;8;Osh-Isfana-Karatokoy;Ош - Исфана - Каратокой;Ош - Исфана - Каратокой;4;loc
+RD2;8;Batken-Bulakbashy-Karabak;Баткен - Булакбашы - Карабак;Баткен - Булакбашы - Карабак;11;loc
+RD2;8;Batken-Karabulak;Баткен - Карабулак;Баткен - Карабулак;6;loc
+RD2;8;Akturpak-Chongara;Актурпак - Чонгара;Актурпак - Чонгара;10;loc
+RD2;8;KS Aktatyr v.;KS село Актатыр;KS село Актатыр;6;loc
+RD2;8;KS Uchdobo;Учдобо;Учдобо;3;loc
+RD2;8;KS Ravat 0-2 km part;"Рават; участок 0-2 км";"Рават; участок 0-2 км";2;loc
+RD2;8;At Bashy-Kynda-Torugart;Ат Башы - Кында - Торугарт;Ат Башы - Кында - Торугарт;225;nat
+RD2;8;Aksay-Ortokashkasuu;Аксай - Ортокашкасуу;Аксай - Ортокашкасуу;92;nat
+RD2;14;Char-Akmuz 0-5km;Чар - Акмуз 0-5 км;Чар - Акмуз 0-5 км;15;nat
+RD2;14;Kulzhabashy-Kokkyya;Кулжабашы - Коккыя;Кулжабашы - Коккыя;25;loc
+RD2;14;At Bashy-Achakaiyndy;Ат Башы - Ачакайынды;Ат Башы - Ачакайынды;3;loc
+RD2;14;Kalinin-May-Bosogo;Калинин - Май - Босого;Калинин - Май - Босого;71;loc
+RD2;14;Beshbelchir-Zhany Zher Ulan;Бешбелчир - Жаны Жер Улан;Бешбелчир - Жаны Жер Улан;21;loc
+RD2;15;Osh-Sary Tash-Irkeshtam ;Ош - Сары Таш - Иркештам;Ош - Сары Таш - Иркештам;34;inter
+RD2;15;Osh-Isfana 0-30 km ;Ош - Исфана 0-30км;Ош - Исфана 0-30км;35;inter
+RD2;15;Osh-Tashkent 0-5 km ;Ош - Ташкент 0-5 км;Ош - Ташкент 0-5 км;5;inter
+RD2;15;Osh-Aravan-Chekabad 0-2,6 km ;Ош - Араван - Чекабад 0-2,6км;Ош - Араван - Чекабад 0-2,6км;2,6;inter
+RD2;15;Osh-Kara Suu-Myrzake 0-6 km;Ош - Кара Суу - Мырзаке 0-6км;Ош - Кара Суу - Мырзаке 0-6км;6;inter
+RD2;15;Osh-Airport;Ош - Аэропорт;Ош - Аэропорт;5;nat
+RD2;15;Bypass Osh c.;Объездная догора города Ош;Объездная догора города Ош;17;nat
+RD2;15;Osh-Toloykon;Ош - Толойкон;Ош - Толойкон;15;nat
+RD2;15;Osh-Ozgur;Ош - Озгур;Ош - Озгур;10;nat
+RD2;15;Ak-Terek-Papan-Kozhokelen;Ак Терек - Папан - Кожокелен;Ак Терек - Папан - Кожокелен;100;nat
+RD2;15;Kalinin-Ozgor ;Калинин - Озгор;Калинин - Озгор;10;loc
+RD2;15;Osh-Kenesh ;Ош - Кенеш;Ош - Кенеш;9;loc
+RD2;15;Bypass Osh c.-Kyzyl-Bayrak ;Объездная города Ош - Кызы Байрак;Объездная города Ош - Кызы Байрак;10;loc
+RD2;15;Aravan highway - Uchar v. ;Араванское Шоссе - село Учар;Араванское Шоссе - село Учар;5;loc
+RD2;15;Cult. Center Chogom-Tan ;Культурные центр Чогом Тан;Культурные центр Чогом Тан;25;loc
+RD2;18;Cult. Center Kichik-Alai ;Культурный центр Кичик Алай;Культурный центр Кичик Алай;17;loc
+RD2;18;8 km Osh-Aravan - Teeke v.;8 км Ош - Араван - Тиите;9 км Ош - Араван - Тиите;1,2;loc
+RD2;18;Bishkek-Osh с 488-596km;Бишкек - Ош 488-596км;Бишкек - Ош 488-596км;110;inter
+RD2;18;Suzak bypass;Объездная Сузака;Объездная Сузака;9;inter
+RD2;18;Access road to Jalal-Abad c.;подъездная дорога к Жалад Абаду;подъездная дорога к Жалад Абаду;10;inter
+RD2;18;Barpy-Iyrisuu-Ozgon ;Барпы - Айрисуу - Озгон;Барпы - Айрисуу - Озгон;17;nat
+RD2;18;Suzak-Karadarya;Сузак - Карадарья;Сузак - Карадарья;19;nat
+RD2;20;Nefteprom-Uchmazar-Aral;Нефтепром - Учмазар - Арал;Нефтепром - Учмазар - Арал;10;nat
+RD2;20;Madaniat-Maylysuu;Маданият - Майлисуу;Маданият - Майлисуу;19;nat
+RD2;20;Kumush-Aziz-Masadan ;Кумуш - Азиз - Масаздан;Кумуш - Азиз - Масаздан;20;loc
+RD2;20;Nefteprom-Uchmazar ;Нефтепром - Учмазар;Нефтепром - Учмазар;17;loc
+RD2;20;Komsomol-Barpy-Turk Abad ;Комсомол - Барпы - Туркабад;Комсомол - Барпы - Туркабад;13;loc
+RD2;20;Suzak-Aral-Zhiyde ;Сузак - Арал - Жийде;Сузак - Арал - Жийде;9;loc
+RD2;20;Bekabad-Zhiyde-Munduz ;Бекабад - Жийде - Мундуз;Бекабад - Жийде - Мундуз;10;loc
+RD2;24;Bazarkorgon-Chkalov ;Базаркоргон - Чкалов;Базаркоргон - Чкалов;7;loc
+RD2;24;Madaniat-Mailysuu-Sary Bee ;Маданият - Майлисуу - Сары бээ;Маданият - Майлисуу - Сары бээ;6;loc
+RD2;24;Jalal Abad - Kurort ;ЖалалАбад- Курорт;ЖалалАбад- Курорт;4;loc
+RD2;24;Bishkek-Osh 209-318 km;Бишкек - Ош 209-318км;Бишкек - Ош 209-318км;109;inter
+RD2;24;Torkent-Tooluk-Sarykamysh ;Торкент - Тоолук - Сарыкамыш;Торкент - Тоолук - Сарыкамыш;155;nat
+RD2;24;Toktogul-Beshtash;Токтогул - Бешташ;Токтогул - Бешташ;90;nat
+RD2;24;Kochkor-Aral-Too Ashuu 41-135км;Кочкор - Арал - Тоо Ашуу 41-135 км;Кочкор - Арал - Тоо Ашуу 41-135 км;94;inter
+RD2;24;Aral-Min Kush;Арал - Мин Куш;Арал - Мин Куш;36;nat
+RD2;24;Chetbulak-Kyzart;Четбулак - Кызарт;Четбулак - Кызарт;7;loc
+RD2;24;Zhumgal-Tugol Say;Жумгал - Тугол Сай;Жумгал - Тугол Сай;26;loc
+RD2;24;Kyzart-Sarybulak;Кызарт - Сарыбулак;Кызарт - Сарыбулак;15;loc
+RD2;24;Kyzyl Tuu-Sarybulak;Кызыл Туу - Сарыбулак;Кызыл Туу - Сарыбулак;17;loc
+RD2;24;Kyzyl Tuu-Shilbili;Кызыл Туу - Шилбили;Кызыл Туу - Шилбили;25;loc
+RD2;24;Kyzyl Tuu-Chon Dobo;Кызыл Туу - Чон Добо;Кызыл Туу - Чон Добо;12;loc
+RD2;24;Diykan-Kolmo;Дыйкан - Колмо;Дыйкан - Колмо;30;loc
+RD3;6;Diykan-Moldo Ashuu;Дыйкан - Молдо Ашуу;Дыйкан - Молдо Ашуу;49;loc
+RD3;6;Kaiyrma-Kolmo-Kara Keche;Кайырма - Колмо - Кара Кече;Кайырма - Колмо - Кара Кече;75;loc
+RD3;6;Chetkuugandy-Chayek-Kara Keche;Четкууганды - Чаек - Кара Кече;Четкууганды - Чаек - Кара Кече;55;loc
+RD3;6;Sarybulun-Ak Kol;Сарыбулун - Ак Кол;Сарыбулун - Ак Кол;10;loc
+RD3;6;Sarybulun-Ornok;Сарыбулун - Орнок;Сарыбулун - Орнок;15;loc
+RD3;6;Sarybulun-Ornok-Saryka;Сарыбулун - Орнок - Сарыка;Сарыбулун - Орнок - Сарыка;45;loc
+RD3;6;Alamedin Arashan - Koi Tash ;Аламедин Арашан - Койташ;Аламедин Арашан - Койташ;19,4;nat
+RD3;6;Bishkek- Koi Tash -Issyk Ata ;Бишкек - Койташ - Ыссык Ата;Бишкек - Койташ - Ыссык Ата;43,6;nat
+RD3;6;Chong Kurchak-Ala Archa ;Чонкурчак - АлаАрча;Чонкурчак - АлаАрча;21;loc
+RD3;6;Kashka Suu - Dom Otdyha;Кашка Суу - Дом отдыха;Кашка Суу - Дом отдыха;3;loc
+RD3;6;Arashan-Chon Kurchak ;Арашан - Чонкурчак;Арашан - Чонкурчак;22;loc
+RD3;6;Lebedinovka-Kok Jar ;Лебединовка - Кок Жар;Лебединовка - Кок Жар;10,3;loc
+RD3;6;Koi Tash- Uzun Kyr ;Кой Таш - Узун Кыр;Кой Таш - Узун Кыр;12;loc
+RD3;6;Podkhoz- Dom Otdyha-Chon Tash ;Подхоз - Дом отдыха - Чон Таш;Подхоз - Дом отдыха - Чон Таш;5;loc
+RD3;6;Archaly-Shorolo ;Арчалы - Шороло;Арчалы - Шороло;10;loc
+RD3;6;Orto Sai-Kok Jar ;Орто Сай - Кок Жар;Орто Сай - Кок Жар;5;loc
+RD3;6;Chong-Arik-Pionerlager ;Чон Арык - Пионерлагерь;Чон Арык - Пионерлагерь;3;loc
+RD3;6;Kok Jar-Ala Too ;Кок Жар - Ала Тоо;Кок Жар - Ала Тоо;7,5;loc
+RD3;6;Alplager-Ala-Archa pass.;Альплагерь - перевал Ала Арча;Альплагерь - перевал Ала Арча;12;loc
+RD3;6;Kara Dzhigach-Kyzyl Birlik ;Кара Жигач - Кызыл Бирлик;Кара Жигач - Кызыл Бирлик;10;loc
+RD3;6;Vostok-Mazar Suu ;Восток - Мазар Суу;Восток - Мазар Суу;1,4;loc
+RD3;6;Arashan-Bosboltok ;Арашан - Босболток;Арашан - Босболток;2;loc
+RD3;6;Kara Dzhigach-Besh Kungoi ;Кара Жыгач - Беш Кунгей;Кара Жыгач - Беш Кунгей;6,1;loc
+RD3;6;Uch-Emchek Tash-Bashat ;Уч Эмчек - Таш Башат;Уч Эмчек - Таш Башат;4;loc
+RD3;19;Almaluu-upper Ichke Suu;Алмалуу - верхний Ичке Суу;Алмалуу - верхний Ичке Суу;4;loc
+RD3;19;Myrzake-Karakulja-Alaiku;Мырзыке - Каракулжа - Алайку;Мырзыке - Каракулжа - Алайку;138;inter
+RD3;19;Ylaitalaa-Gulcho;Ылайталаа - Гулчо;Ылайталаа - Гулчо;23;nat
+RD3;19;Ylaitalaa-Karaguz-Tushunuk ;Ылайталаа - КарагузТушунук;Ылайталаа - КарагузТушунук;28;loc
+RD3;19;Karakulja-Pervoe Maya ;Каракулжа - Первое  мая;Каракулжа - Первое  мая;12;loc
+RD3;19;Chalma-Kalinin-Buyga ;Чалма - Калинин - Буйга;Чалма - Калинин - Буйга;20;loc
+RD3;19;Ulyanov- Zhivprom ;Ульянов - Живпром;Ульянов - Живпром;6;loc
+RD3;19;Karakulja-Akkyya ;Каракулжа - Первое  мая;Каракулжа - Первое  мая;9;loc
+RD3;19;Tashkyya-Kirov-Zhiydeli ;Ташкыя - Киров - Жийдели;Ташкыя - Киров - Жийдели;12;loc
+RD3;19;Ylaitalaa-Sai ;Ылайталаа - Сай;Ылайталаа - Сай;3;loc
+RD3;19;Karakulja-Sarykamysh ;Каракулжа - Сарыкамыш;Каракулжа - Сарыкамыш;3;loc
+RD3;19;Zhivprom-Por ;Живпром - Пор;Живпром - Пор;3;loc
+RD3;19;Kirov-Zhanytalap;Киров - Жанталап;Киров - Жанталап;3;loc
+RD3;19;Alabuka-Zhanybazar-Kirovka;Алабука - Жаныбазар - Кировка;Алабука - Жаныбазар - Кировка;152;nat
+RD3;19;Krasnayagorka-Aktash ;Красная Горка - Акташ;Красная Горка - Акташ;17;loc
+RD3;19;Podyezd-Tereksai ;Подъезд - Терексай;Подъезд - Терексай;6;loc
+RD3;36;Chandalash stow-Kurgantyube ;Урочище Чандалаш - Кургантюбе;Урочище Чандалаш - Кургантюбе;2;loc
+RD3;36;Bashkyterek stow;Урочище Башкытерек ;Урочище Башкытерек ;1;loc
+RD3;36;Ortoterek stow;Урочище Ортотерек;Урочище Ортотерек;2;loc
+RD3;36;Barkyrak stow;Урочище Баркырак;Урочище Баркырак;1;loc
+RD3;36;Aygyrzhal road;Трасса Айгыржал;Трасса Айгыржал;12;loc
+RD3;36;East Zhany Zher-50 let Kamyshanovka;Восточный Джаны Жер - 50 лет Камышановка;Восточный Джаны Жер - 50 лет Камышановка;13;loc
+RD3;36;Belovodskoe-Saharnyi Zavod ;Беловоское - Сахарный Завод;Беловоское - Сахарный Завод;4;nat
+RD3;36;Belovodskoe-Tyulek ;Беловодское - Тюлек;Беловодское - Тюлек;45;nat
+RD3;36;Petrovka-Neftebaza;Петровка - Нефтебаза;Петровка - Нефтебаза;2,6;nat
+RD3;47;Tyulek-Ak Kashat ;Тюлек - Ак Кашат;Тюлек - Ак Кашат;11,3;nat
+RD3;47;Belovodsk-Temen Suu ;Беоводское - Темен Суу;Беоводское - Темен Суу;30;nat
+RD3;47;Vinsovhoz-Asylbash ;Винсовхоз - Асылбаш;Винсовхоз - Асылбаш;16;loc
+RD3;47;Tash Bulak-Boruluu ;Таш Булак - Борулуу;Таш Булак - Борулуу;3;loc
+RD3;47;Belovodskoe-Oktyabrskoe ;Беловодское - Октябрьское;Беловодское - Октябрьское;3,8;loc
+RD3;47;Belovodsk-Kalinin ;Беловодское - Калинин;Беловодское - Калинин;8,7;loc
+RD3;47;Petrovka-Moltavar ;Петровка - Молтавар;Петровка - Молтавар;6,2;loc
+RD3;47;Petrovka-Besh Terek ;Петровка - Беш Терек;Петровка - Беш Терек;21,4;loc
+RD3;47;Spartak-Besh Terek ;Спартак - Беш Терек;Спартак - Беш Терек;15;loc
+RD3;47;Access road to v/ch;Подъездная дорога к v/ch;Подъездная дорога к v/ch;6,2;loc
+RD3;47;Spartak-Kr.Pahar;Спартак - Кр. Пахар;Спартак - Кр. Пахар;9;loc
+RD3;47;Sretenka-Kiz Molo ;Сретенка - Кыз Моло;Сретенка - Кыз Моло;12,9;loc
+RD3;47;Sretenka-Kyrgyzstan ;Сретенка - Кыргызстан;Сретенка - Кыргызстан;16;loc
+RD3;47;Sadovaya MTF k-z Drujba;Садовое - МТФ - Колхоз Дружба;Садовое - МТФ - Колхоз Дружба;3,5;loc
+RD3;47;Alexandrovka-Kyrgyzstan ;Александровка - Кыргызстан;Александровка - Кыргызстан;6;loc
+RD3;48;Alexandrovka-Krupskaya ;Александровка - Крупская;Александровка - Крупская;7,1;loc
+RD3;48;Belovodsk-Pretechenka ;Беловодское - Претеченка;Беловодское - Претеченка;14,5;loc
+RD3;48;Access road to ABTs;Подъездные дорог к ABT;Подъездные дорог к ABT;2;loc
+RD3;48;Temen Suu-Ak Bashat ;Темен Суу - Ак Башат;Темен Суу - Ак Башат;4;loc
+RD3;48;Sokuluk-Belogorka;Сокулук - Белогорка;Сокулук - Белогорка;49;loc
+RD3;48;Poltavka-Besh Terek ;Полтавка - Беш Терек;Полтавка - Беш Терек;26;nat
+RD3;48;Balykchi-Bokonbaevo-Karakol 124-150km ;Балыкчы - Боконбаево - Каракол 124-150 км;Балыкчы - Боконбаево - Каракол 124-150 км;26;inter
+RD3;48;Barskoon-Ak Shiyrak 0-208km;Барскоон - Ак Шыйрак 0-208 км;Барскоон - Ак Шыйрак 0-208 км;163;inter
+RD3;48;Sook-Karakolka-Kurmontu 0-95km;Соок - Караколка - Курмонту 0-95 км;Соок - Караколка - Курмонту 0-95 км;95;nat
+RD3;48;Gosdoroga Barskoon-Tamga ;госдорога Барскоон - Тамга;госдорога Барскоон - Тамга;11;loc
+RD3;48;"Gosdoroga resort ""CABO""";"госдорога Дом отдыха ""САВО""";"госдорога Дом отдыха ""САВО""";2;loc
+RD3;48;Bishkek-Osh  318-427 km;Бишкек - Ош 318-427;Бишкек - Ош 318-428;109;inter
+RD3;48;Kyzyluran-Zhetigen ;Кызылуран - Жетиген;Кызылуран - Жетиген;10;loc
+RD3;48;Kyzyluran-Telman;Кызылуран - Тельман;Кызылуран - Тельман;11;loc
+RD3;48;Uchterek-Ozgorush;Учтерек - Озгоруш;Учтерек - Озгоруш;50;loc
+RD3;48;Jalalabat-Kazarman;ЖалалАбад - Казарман;ЖалалАбад - Казарман;98;inter
+RD4;3;Dmitrievka-Kokart;Дмитриевка - Кокарт;Дмитриевка - Кокарт;55;nat
+RD4;3;Dmitrievka-Karaalma;Дмитриевка - Караалма;Дмитриевка - Караалма;8;nat
+RD4;3;Kalmakyrchyn-Kyzylsuu;Калмакырчын - Кызылсуу;Калмакырчын - Кызылсуу;18;loc
+RD4;3;Oktyabrskoe-Bagysh;Октябрьское - Багыш;Октябрьское - Багыш;2;loc
+RD4;3;Vinsovhoz-Gavrilovka-3 Otdel;Винсовхоз - Гавриловка - 3 Отдел;Винсовхоз - Гавриловка - 3 Отдел;20;loc
+RD4;4;Taygaraev-Kulbayuulu;Тайгараев - Кулбайуулу;Тайгараев - Кулбайуулу;3;loc
+RD4;4;Taygaraev-Voroshilov;Тайгараев - Ворошилов;Тайгараев - Ворошилов;8;loc
+RD4;4;Bagysh-Jalalabat;Багыш - ЖаладАбад;Багыш - ЖаладАбад;13;loc
+RD4;4;Leninzhol-Kokart;Ленинжол - Кокарт;Ленинжол - Кокарт;6;loc
+RD4;4;Mikhailovka-Chontash;Михайловка - Чонташ;Михайловка - Чонташ;14;loc
+RD4;4;Kokzhangak-Sarybulak;Кокжангак - Сарыбулак;Кокжангак - Сарыбулак;8;loc
+RD4;4;Mikhailovka-Sarybulak;Михайловка - Сарыбулак;Михайловка - Сарыбулак;26;loc
+RD4;4;Bishkek – Torugart 82-147 km;Бишкек - Торугарт 82-147 км;Бишкек - Торугарт 82-147 км;65;inter
+RD4;4;Kemin-Shabdan-Kok Oirok;Кемин - Шабдан - Кок Ойрок;Кемин - Шабдан - Кок Ойрок;102;nat
+RD4;4;Kemin-Ilich-Ak Tuz;Кемин - Ильич - Ак Тюз;Кемин - Ильич - Ак Тюз;36;nat
+RD4;4;Boroldoy-Zholbulak;Боролдой - Жолбулак;Боролдой - Жолбулак;8;nat
+RD4;4;Kemin-Orlovka;Кемин - Орловка;Кемин - Орловка;6;nat
+RD4;4;Tar Suu-Tegirmenti;Таш Суу - Тегирменти;Таш Суу - Тегирменти;15;loc
+RD4;4;Gosdoroga-Kyzyl Octyabr;Госдорога - Кызыл Октябрь;Госдорога - Кызыл Октябрь;2;loc
+RD4;4;Chui bridge-Beisheke-Boroldoy ;Чуйский мост - Бейшеке - Боролдой;Чуйский мост - Бейшеке - Боролдой;16;loc
+RD4;4;Beisheke-Orto-Jon ;Бейшеке - Орто Жон;Бейшеке - Орто Жон;30;loc
+RD4;4;Boroldoy-Konur-Belsaz-Ilich ;Боролой - Конур - Белсаз - Ильич;Боролой - Конур - Белсаз - Ильич;52;loc
+RD4;4;128km-Gosdaroga-Terek Sai stow ;128 км - Госдорога - Урочище Терек Сай;129 км - Госдорога - Урочище Терек Сай;18;loc
+RD4;4;Zhanyzhol-Zholbulak-Zhyltyr ;Жаныжол - Жолбулак - Жылтыр;Жаныжол - Жолбулак - Жылтыр;13;loc
+RD4;7;Boroldoy-MTF ;Боролдой - МТФ;Боролдой - МТФ;2;loc
+RD4;7;Chym Korgon-MTF ;Чымкоргон - МТФ;Чымкоргон - МТФ;5;loc
+RD4;7;Kara Bulak-Beisheke;Кара Булак - Бейшеке;Кара Булак - Бейшеке;7;loc
+RD4;7;Balykchy-Bokonbayevo-Karakol 56-124km;Балыкчы - Боконбаево - Каракол 56-124км;Балыкчы - Боконбаево - Каракол 56-124км;68;inter
+RD4;7;Bokonbayevo-Koltor-Don Talaa with access road to Komsomol;Боконбаево - Колтор - Дон Талаа с подъездной дорогой к Комсомолу;Боконбаево - Колтор - Дон Талаа с подъездной дорогой к Комсомолу;67;nat
+RD4;7;Bokonbayevo-Tosor-Zhyluusuu-Archaly;Боконбаево - Тосор - Жылуусуу - Арчалы;Боконбаево - Тосор - Жылуусуу - Арчалы;134;nat
+RD4;7;"Mine ""Centralnaya"" ";"Шахта ""Центральная""";"Шахта ""Центральная""";7;loc
+RD4;7;Bokonbaevo-Kyrchyn ;Боконбаево - Кырчын;Боконбаево - Кырчын;30;loc
+RD4;7;Ton-Archaly ;Тон - Арчалы;Тон - Арчалы;80;loc
+RD4;7;Aksai-Koksai ;Аксай - Коксай;Аксай - Коксай;8;loc
+RD4;7;Burkan-Zhamanechki ;Буркан - Жаманэчки;Буркан - Жаманэчки;45;loc
+RD4;7;"Gosdoroga Pioneer ""Lager"" ";Госдорога Пионерлагерь;Госдорога Пионерлагерь;3;loc
+RD4;7;Tort Kul-Airport ;Торт Куль - Аэропорт;Торт Куль - Аэропорт;2;loc
+RD4;7;Turning to Toguzbulak ;Поворот на Тогузбулак;Поворот на Тогузбулак;5;loc
+RD4;7;Aksai-Ton ;Аксай - Тон;Аксай - Тон;10;loc
+RD4;10;Tuuratam-Karooldobo;Тууратам - Кароолдобо;Тууратам - Кароолдобо;10;loc
+RD4;10;Kant-Tokmok Kemin 18-39 km ;Кант - Токмок - Кемин 18-39 км;Кант - Токмок - Кемин 18-39 км;21;inter
+RD4;10;Kant-Tokmok Kemin 39-86 km;Кант - Токмок - Кемин 39-86 км;Кант - Токмок - Кемин 39-86 км;47;inter
+RD4;10;Tokmok-Kalinovka 0-19 km;Токмок - калиновка 0-19км;Токмок - калиновка 0-19км;19;nat
+RD4;10;Tokmok-Shamshy-Tuyuk 0-42 km;Токмок - Шамси - Туюк 0-42 км;Токмок - Шамси - Туюк 0-42 км;42;nat
+RD4;10;Orlovka-Chym Korgon;Орловка - Чым Коргон;Орловка - Чым Коргон;14;nat
+RD4;10;Orlovka-Madaniyat-Shamshy;Орловка - Маданият - Шамси;Орловка - Маданият - Шамси;18;nat
+RD4;10;Kant - Chuyskiy most 0-13,4 km;Кант - Чуйский мост 0-13,4км;Кант - Чуйский мост 0-13,4км;13,4;nat
+RD4;10;Orlovka-Zhany-Alysh;Орловка - Жаны Алыш;Орловка - Жаны Алыш;6,1;nat
+RD4;10;Pioner Lager-Pastbishche-Bel Saz;Пионерлагерь - пастбище Бел Саз;Пионерлагерь - пастбище Бел Саз;28;loc
+RD4;10;Kirovo-Syn Tash 0-5 km;Кирово - Сын Таш 0-5 км;Кирово - Сын Таш 0-5 км;5;loc
+RD4;10;Ak Say-Yuryevka 0-5 km;Ак Сай - Юрьевка 0-5 км;Ак Сай - Юрьевка 0-5 км;5;loc
+RD4;11;Epkin kr. vostok-Budenovka with access road to Sotsialchy v.;Эпкин восток - Буденовка с подъездной дорогой к селу Социалчы;Эпкин восток - Буденовка с подъездной дорогой к селу Социалчы;31;loc
+RD4;11;Krasnaya Rechka - bypass road 0-4 km;Красная речка - объездная дорога 0-4 км;Красная речка - объездная дорога 0-4 км;4;loc
+RD4;11;Ken Bulun - Svinsovkhoz 0-19 km;Кен Булун - Свинсовхоз 0-19 км;Кен Булун - Свинсовхоз 0-19 км;19;loc
+RD4;11;Ivanovka - bypass road 0-4 km;Ивановка - объездная дорога 0-4 км;Ивановка - объездная дорога 0-4 км;4;loc
+RD4;11;Ivanovka - Plodopitomnik 0-2 km;Ивановка - Плодопитомник 0-2 км;Ивановка - Плодопитомник 0-2 км;2;loc
+RD4;11;Rot Front - Syntash 0-10 km;Рот Фронт - Сынташ 0-10 км;Рот Фронт - Сынташ 0-10 км;10;loc
+RD4;11;38 km. Gosdoroga - Bypass road 0-3 km;38 км Госдорога - Объездная дорога 0-3 км;39 км Госдорога - Объездная дорога 0-3 км;3;loc
+RD4;11;Orlovka-Taldy Bulak-P.Oktorkoy;Орловка - Талды Булак - П.Окторкой;Орловка - Талды Булак - П.Окторкой;25;loc
+RD4;11;Kenesh-Bypass road 0-5 km;Кенеш - Объездная дорога - 0-5 км;Кенеш - Объездная дорога - 0-5 км;5;loc
+RD4;11;Balykchy-Bokonbayevo-Karakol150-220;Балыкчы - Боконбаево - Каракол 150-220 км;Балыкчы - Боконбаево - Каракол 150-220 км;70;inter
+RD4;11;Balykchy-Ananyevo-Karakol207-218;Балыкчы - Ананьево - Каракол 207-218;Балыкчы - Ананьево - Каракол 207-219;11;inter
+RD4;11;Karakol-Pristan;Каракол - Пристань;Каракол - Пристань;11;nat
+RD4;11;Zheti Oguz-Koy Sary;Жети Огуз - Кой Сары;Жети Огуз - Кой Сары;31;nat
+RD4;11;Kyzyl Suu-Pristan;Кызыл Суу - Пристань;Кызыл Суу - Пристань;10;nat
+RD4;11;Konkino-Zheti Oguz-Telti;Конкино - Жети Огуз - Телти;Конкино - Жети Огуз - Телти;47;loc
+RD4;11;Shalbaa-Lipenka-Zhon Bulak;Шалбаа - Липенка - Жон Булак;Шалбаа - Липенка - Жон Булак;30;loc
+RD4;11;Lipenka-Karakol pass;Липенка - перевал Каракол;Липенка - перевал Каракол;9;loc
+RD4;11;Zhele Dobo-Zheti Oguz;Желе Добо - Жети Огуз;Желе Добо - Жети Огуз;2;loc
+RD4;11;Ak Kochkor-Baltabay-Irdyk;Ак Кочкор - Балтабай - Ирдык;Ак Кочкор - Балтабай - Ирдык;12;loc
+RD4;11;Boz Bulun-Kara Zhal;Боз Булун - Кара Жал;Боз Булун - Кара Жал;8;loc
+RD4;33;Karakol-Boru Bash;Каракол - Бору Баш;Каракол - Бору Баш;21;loc
+RD4;33;Gosdoroga-Talap;Госдорога - Талап;Госдорога - Талап;2;loc
+RD4;33;Chon Kyzyl Suu-Kyzyl Suu;Чон Кызыл Суу - Кызыл Суу;Чон Кызыл Суу - Кызыл Суу;22;loc
+RD4;33;Chon Kyzyl Suu-sv.Polyana;Чон Кызыл Суу - Поляна;Чон Кызыл Суу - Поляна;2;loc
+RD4;33;Suttu Bulak-Boz Beshik-Munduz;Сутту Булак - Боз Бешик - Мундуз;Сутту Булак - Боз Бешик - Мундуз;55;loc
+RD4;33;Ak Dobo-Televyshka;Ак Добо - Телевышка;Ак Добо - Телевышка;6;loc
+RD4;33;Tort Kul-Darkhan-Tik Kyya;Торт Куль - Дархан - Тик Кыя;Торт Куль - Дархан - Тик Кыя;17;loc
+RD4;33;Kirpichnyi-Saruu-Zhuuku;Кирпичный - Саруу - Жууку;Кирпичный - Саруу - Жууку;65;loc
+RD4;33;Zhenish-Zhaiyt-Ak Terek 0-36;Жениш - Жайыт - Ак Терек 0-36км;Жениш - Жайыт - Ак Терек 0-36км;36;loc
+RD4;33;Taraz - Talas - Suusamyr;Тараз - Талас - Суусамыр;Тараз - Талас - Суусамыр;11;inter
+RD4;33; Suusamyr- Talas - Taraz;Суусамыр - Талас - Тараз;Суусамыр - Талас - Тараз;73;inter
+RD4;33;Chatbazar-Aral-Taldybulak;Чатбазар - Арал - Талдыбулак;Чатбазар - Арал - Талдыбулак;50;loc
+RD4;33;Kopurobazar - Karakol;Копуробазар - Каракол;Копуробазар - Каракол;60;loc
+RD4;35;Konezavod - Taldybulak;Конезавод - Талдыбулак;Конезавод - Талдыбулак;20;loc
+RD4;35;Konezavod - Ortokoshoy;Конезавод - Ортокошой;Конезавод - Ортокошой;20;loc
+RD4;35;Konezavod - Chonkoshoy;Конезавод - Чонкошой;Конезавод - Чонкошой;20;loc
+RD4;35;Konezavod - Sandyk;Конезавод - Сандык;Конезавод - Сандык;15;loc
+RD4;35;Kommun - Chonor - Lugovoye;Коммун - Чонор - Луговое;Коммун - Чонор - Луговое;37;loc
+RD4;35;Osh-Batken-Isfana;Ош - Баткен - Исфана;Ош - Баткен - Исфана;45;inter
+RD4;35;Nookat-Papan;Ноокат - Папан;Ноокат - Папан;45;nat
+RD4;35;Nookat-Aravan;Ноокат - Араван;Ноокат - Араван;19;nat
+RD4;35;Telman-Karagoy;Тельман - Карагой;Тельман - Карагой;28;loc
+RD4;35;Nookat-Kalinin;Ноокат - Калинин;Ноокат - Калинин;9;loc
+RD4;35;Dodon-Saliyeva-Abshyrsay;Додон - Салиева - Абшырсай;Додон - Салиева - Абшырсай;55;loc
+RD4;35;Madaniyat-Leninizm;Маданият - Ленинизм;Маданият - Ленинизм;26;loc
+RD4;35;Kokzhar-Tashbulak;Кокжар - Ташбулак;Кокжар - Ташбулак;18;loc
+RD4;35;Kokzhar-Pakhtachy;Кокжар - Пахтачы;Кокжар - Пахтачы;13;loc
+RD4;35;Nookat-Chechmesay;Ноокат - Чечмесай;Ноокат - Чечмесай;4;loc
+RD4;35;Chapayev-Internatsional;Чапаев - Интерниционал;Чапаев - Интерниционал;6;loc
+RD4;35;Kokbel-Kichialay;Кокбел - Кичиалай;Кокбел - Кичиалай;8;loc
+RD4;35;Toomoyun-Osor-Zhany Archa;Тоомоюн - Осор - Жаны Арча;Тоомоюн - Осор - Жаны Арча;48;loc
+RD4;35;Madaniyat-Kyzyl Teyit;Маданият - Кызыл Тейит;Маданият - Кызыл Тейит;15;loc
+RD4;35;2nd division of Kokzhar;2я часть Кокжара;2я часть Кокжара;4;loc
+UAD_BNT;32;Kokbel-Akterek;Кокбел - Актерек;Кокбел - Актерек;17;loc
+UAD_BNT;32;Leninizm-Shankol;Ленинизм - Шанкол;Ленинизм - Шанкол;19;loc
+UAD_BNT;32;Kokzhar-Uluu Too;Кокжар - Улуу Тоо;Кокжар - Улуу Тоо;10;loc
+UAD_BNT;32;Kokzhar-Kyzyl Kyya;Кокар - Кызыл Кия;Кокар - Кызыл Кия;30;loc
+UAD_BNT;32;Kyzyl Kyya-Beshburkan;Кызыл Кия - Бешбуркан;Кызыл Кия - Бешбуркан;7;loc
+UAD_BNT;32;Bishkek-Osh с 427 по 488 km;Бишкек - Ош 427-488 км;Бишкек - Ош 427-488 км;61;inter
+UAD_BNT;32;Tashkomur-Kyzylzhar-12 M-076;Ташкомур - Кызылжар 12 м-076;Ташкомур - Кызылжар 12 м-077;28;nat
+UAD_BNT;32;Alabuka-Kerben-Tashkomur;Алабука - Кербен - Ташкомур;Алабука - Кербен - Ташкомур;54;nat
+UAD_BNT;32;Maylysuu- Aksuu-Zhanytalap ;Майлусуу - Аксуу - Жаныталап;Майлусуу - Аксуу - Жаныталап;30;loc
+UAD_BNT;32;Kichiakzhol-Pionerlager ;Кичиакжол - Пионерлагерь;Кичиакжол - Пионерлагерь;16;loc
+UAD_BNT;32;Raikomol-Kechuu ;Райкомол - Кечуу;Райкомол - Кечуу;8;loc
+UAD_BNT;32;Zhanyzhol-Malkaldy;Жаныжол - Малкалды;Жаныжол - Малкалды;4,2;loc
+UAD_BNT;32;Ornok-Saliyeva;Орнок - Салиева;Орнок - Салиева;3;loc
+UAD_BNT;32;Almaty-Bishkek-Tashkent 232-255 km ;Алматы - Бишкек - Ташкент 232-255 км;Алматы - Бишкек - Ташкент 232-255 км;23;inter
+UAD_BNT;32;Access to Bishkek 0-17 km;Подъездная дорога к Бишкеку 0-17 км;Подъездная дорога к Бишкеку 0-17 км;17;inter
+UAD_BNT;34;Maevka-Ala Archa reservoir 0-9 km;Маевка - водохранилище Ала Арча 0-9 км;Маевка - водохранилище Ала Арча 0-9 км;9;nat
+UAD_BNT;34;Voenno Antonovka - Uchhoz 0-12,5 km;Военно Антоновка - Учхоз 0-12,5 км;Военно Антоновка - Учхоз 0-12,5 км;12,5;nat
+UAD_BNT;34;Vostochnoye - Zhanypakhta 0-12 km;Восточное - Жаныпахта 0-12 км;Восточное - Жаныпахта 0-12 км;12;loc
+UAD_BNT;34;Bishkek - Kamyshanovka-Broylernaya 0-11 km;Бишкек - Камышановка - Бройлерная 0-11км;Бишкек - Камышановка - Бройлерная 0-11км;11;loc
+UAD_BNT;34;Zhany Pakhta - Nizhnechuisk - Mirnyy - Taltak 0-20 km;Жаныпахта - Нижнечуйск - мирный - талтак 0-2,км;Жаныпахта - Нижнечуйск - мирный - талтак 0-2,км;20;loc
+UAD_BNT;34;Access road to Lesnoye v. 0-3 km;подъездная дорога к селу Лесное 0-3 км;подъездная дорога к селу Лесное 0-3 км;3;loc
+UAD_BNT;34;Chatkul - Tortkul - Uchkhoz 0-18 km;Чаткул - Торткул - Учхоз 0-18км;Чаткул - Торткул - Учхоз 0-18км;18;loc
+UAD_BNT;34;Sovhoz Frunze - RKOOS 0-7 km;Совхоз Фрунзе - РКООС 0-7 км;Совхоз Фрунзе - РКООС 0-7 км;7;loc
+UAD_BNT;34;Bishkek - Kr. Stroitel 0-4 km;Бишкек - Красный Строитель 0-4 км;Бишкек - Красный Строитель 0-4 км;4;loc
+UAD_BNT;34;Prigorodnoye - Ozernoye 0-14 km;Пригородное - Озерное 0-14км;Пригородное - Озерное 0-14км;14;loc
+UAD_BNT;34;Rassvet - Mramornoye 0-11 km;Рассвет - Мраморное 0-11км;Рассвет - Мраморное 0-11км;11;loc
+UAD_BNT;34;Leninskoye - Ozernoye 0-6,1 km;Ленинское - Озерное 0-6,1км;Ленинское - Озерное 0-6,1км;6,1;loc
+UAD_BNT;34;Lebedinovka - GES-5 0-6,6 km;Лебединовка - ГЭС% 0-6,6км;Лебединовка - ГЭС% 0-6,6км;6,6;loc
+UAD_BNT;34;Alamudun - Mykan - Dachnyi 0-9,2 km;Аламедин - Мукан - Дачныйм0-9,2км;Аламедин - Мукан - Дачныйм0-9,2км;9,2;loc
+UAD_BNT;34;Leninskoye - Kaiyrma-p/ya Moldovanovka 0-5 km;Ленинское - Кайырма - Молдовановка 0-5км;Ленинское - Кайырма - Молдовановка 0-5км;5;loc
+UAD_BNT;34;Lebedinovka - Mazarsuu 0-3 km;Лебединовка - Мазарсуу 0-3км;Лебединовка - Мазарсуу 0-3км;3;loc
+UAD_BNT;34;GES-5 - MGKO 0-3,5 km;ГЭС5 - МГКО 0-3,5км;ГЭС5 - МГКО 0-3,5км;3,5;loc
+UAD_BNT;34;Leninskoye-GES-5 0-3 km;Ленинское - ГЭС5 0-3 км;Ленинское - ГЭС5 0-3 км;3;loc
+UAD_BNT;34;Mayskiy - Nizhnyaya Ala Archa 0-6,6 km;Майский - Нижняя Ала Арча 0-6,6 км;Майский - Нижняя Ала Арча 0-6,6 км;6,6;loc
+UAD_BNT;34;Balykchi-Ananyevo-Karakol 156-207 ;Балыкчы - Ананьево - Каракол 156-207 км;Балыкчы - Ананьево - Каракол 156-207 км;51;inter
+UAD_BNT;39;Tup-Kegen;Тюп - Кеген;Тюп - Кеген;76;inter
+UAD_BNT;39;Mikhailovka-Nikolayevka-Sary Tologoi;Михайловка - Николаевка - Сары Тологой;Михайловка - Николаевка - Сары Тологой;82;nat
+UAD_BNT;39;Karkyra-Turuk-Sary Jaz;Каркыра - Турук - Сары Жаз;Каркыра - Турук - Сары Жаз;80;nat
+UAD_BNT;39;Cemzavod-Kurmontu-Pristan';Цемзавод - Курмонту - Пристань;Цемзавод - Курмонту - Пристань;8;nat
+UAD_BNT;39;Dolon-Kosh Dobo-Min Bulak;Долон - Кош Добо - Мин Булак;Долон - Кош Добо - Мин Булак;13;loc
+UAD_BNT;39;Kara Suu-Tasma-Chon Toguzbay;Кара Суу - Тасма - Чон Тогузбай;Кара Суу - Тасма - Чон Тогузбай;7;loc
+UAD_BNT;39;Taldy Suu-Aral;Талды Суу - Арал;Талды Суу - Арал;10;loc
+UAD_BNT;39;Tup-Shaty-Taldy Suu;Тюп - Шаты - Талды Суу;Тюп - Шаты - Талды Суу;17;loc
+UAD_BNT;39;Sary Tologoy-Chon Bulak;Сары Тологой - Чон Булак;Сары Тологой - Чон Булак;20;loc
+UAD_BNT;39;Turuk-Zhaak;Турук - Жаак;Турук - Жаак;20;loc
+UAD_BNT;39;Shaty-Sarybulak;Шаты - Сарыбулак;Шаты - Сарыбулак;7;loc
+UAD_BNT;39;Tup-Pritsan';Тюп - Пристань;Тюп - Пристань;3;loc
+UAD_BNT;39;Belovodsk-agricultural Tekhnikum;Беловодск - Аграрный техникум;Беловодск - Аграрный техникум;3;loc
+UAD_BNT;39;Ken Suu-leskhoz;Кен Суу - Лесхоз;Кен Суу - Лесхоз;6;loc
+UAD_BNT;39;Zhylanach-Arpa Tektir;Жаланач - Арпа Тектир;Жаланач - Арпа Тектир;30;loc
+UAD_BNT;39;Dongolok-Saz-Slivpunkt;Донголок - Саз - Сливпункт;Донголок - Саз - Сливпункт;13;loc
+UAD_BNT;39;3-ferma - Chymyndy Say;3 ферма - Чымынды Сай;4 ферма - Чымынды Сай;22;loc
+UAD_BNT;39;Mikhailovka-Nikolayevka;Михайловка - Николаевка;Михайловка - Николаевка;10;loc
+UAD_BNT;39;Petrovka-Narzan sources;Петровка - Нарзан ;Петровка - Нарзан ;52;nat
+UAD_BNT;39;Bishkek-Chaldovar 60,2-67,0 km;Бишкек - Чалдовар 60.2 - 67.0  км;Бишкек - Чалдовар 60.2 - 67.0  км;6,8;inter
+UAD_BNT;39;Sosnovka-Keperaryk ;Сосновка - Кеперанык;Сосновка - Кеперанык;8;nat
+UAD_BNT;41;Kalininskoe-Stepnoe ;Калининское - Степное;Калининское - Степное;44;nat
+UAD_BNT;41;Kara Balta-Monoldor ;Кара Балта - Монолдор;Кара Балта - Монолдор;18;loc
+UAD_BNT;41;Sosnovka-Sarybulak ;Сосновка Сарыбулак;Сосновка Сарыбулак;6;loc
+UAD_BNT;41;Uzen-Sarykoo ;Узен - Сакыроо;Узен - Сакыроо;23;loc
+UAD_BNT;41;Novonikolaevka-Karasu  ;тНовониколаевка - Карасуу;тНовониколаевка - Карасуу;29;loc
+UAD_BNT;41;Jeken-Eriktuu-Iyrisuu ;Жекен - Эриктуу - Лыриссуу;Жекен - Эриктуу - Лыриссуу;11;loc
+UAD_BNT;41;Kalininskoe-Zhonaryk ;Калиникское - Жонарык;Калиникское - Жонарык;14;loc
+UAD_BNT;41;Voznesenovka-Karatyube ;Вознесеновка - Каратюбе;Вознесеновка - Каратюбе;24;loc
+UAD_BNT;41;Stavropolovka-Vodohranilishe;Ставрополка - Водохранилище;Ставрополка - Водохранилище;4;loc
+UAD_BNT;955;Kara Balta-Indom;Кара Балта - Индом;Кара Балта - Индом;7;loc
+UAD_BNT;955;Petropavlovka-Kyzyldyikan ;Петропавловка - Кызыл Дыйкан;Петропавловка - Кызыл Дыйкан;22;loc
+UAD_BNT;955;Poltavka-Ortosuu ;Полтавка - Ортосуу;Полтавка - Ортосуу;6;loc
+UAD_BNT;955;Novonikolaevka-SPTU 35 ;Новониколаевка - СПТУ 35;Новониколаевка - СПТУ 36;3;loc
+UAD_BNT;955;Novonikolaevka-Akbashat ;Новониколаевка - Акбашат;Новониколаевка - Акбашат;5;loc
+UAD_BNT;955;Comintern-Novyi Put;Коминтерн - Новый Путь;Коминтерн - Новый Путь;15;loc
+UAD_BNT;955;Petropavlovka-Aerordrom ;Петропавловка - Аэродром;Петропавловка - Аэродром;10;loc
+UAD_BNT;955;Melioratsiya-Toktosh ;Меиорация - Токтош;Меиорация - Токтош;8;loc
+UAD_BNT;955;Alexeevka-Bolshevik ;Алексеевка - Большевик;Алексеевка - Большевик;11;loc
+UAD_BNT;955;Akbashat-Aral ;Акбашат - Арал;Акбашат - Арал;2;loc
+UAD_BNT;955;Akbashat-MTF;Акбашат - МТФ;Акбашат - МТФ;2;loc
+UAD_BNT;955;Bishkek- Naryn-Torugart  283-367 km;Бишкек - Нарын - Торугарт 283-367 км;Бишкек - Нарын - Торугарт 283-367 км;103;inter
+UAD_BNT;955;Bypass road Naryn c. 0-5,1 km;Объездная дорога города Нарын 0-5,1 км;Объездная дорога города Нарын 0-5,1 км;5,1;inter
+UAD_BNT;955;Gosdoroga-Konezavod 0-1 km ;Госдорога - Конезавод 0-1км;Госдорога - Конезавод 0-1км;1;loc
+UAD_BNT;955;Onarcha-Echki Bashy 0-5 km;Онарча - Эчки башы 0-5 км;Онарча - Эчки башы 0-5 км;5;loc
+UAD_BNT;955;Gosdoroga-Min Bulak 0-15 km;Госдорога - Минбулак 0-15 км;Госдорога - Минбулак 0-15 км;15;loc
+UAD_BNT;955;Gosdoroga-Emgekchil 0-9 km;Госдорога - Эмгекчил 0-9 км;Госдорога - Эмгекчил 0-9 км;9;loc
+UAD_BNT;957;Dolon - Kichikarakuzhur-Soltonsary 0-60 km;Долон - Кичикаракужур - Солтонсары 0-60 км;Долон - Кичикаракужур - Солтонсары 0-60 км;60;loc
+UAD_BNT;957;Ekiottuk - Karatalzhapyryk-Son Kol 0-60 km;Экиоттук - Караталжапырык - Сон Кол 0-60 км;Экиоттук - Караталжапырык - Сон Кол 0-60 км;40;loc
+UAD_BNT;957;Teskey-Torpu - Son Kol 0-20 km;Тескей - Торпу - Сон Кол 0-60 км;Тескей - Торпу - Сон Кол 0-60 км;20;loc
+UAD_BNT;957;Bishkek-Chaldovar 67,0-91,6 km;Бишкек - Чалдовар 67,0-91,6 км;Бишкек - Чалдовар 67,0-91,6 км;24,6;inter
+UAD_BNT;957;Panfilovka-m/s Chaldovar;Панфиловка - м/с Чалдовар;Панфиловка - м/с Чалдовар;28;nat
+UAD_BNT;957;Panfilovka-Kaiyndy ;Панфиловка - Кайынды;Панфиловка - Кайынды;8;loc
+UAD_BNT;957;Panfilovka-Ortoaryk ;Панфиловка - Ортоарык;Панфиловка - Ортоарык;20;loc
+UAD_BO;5;Efironos-Telman ;Эфиронос - Тельман;Эфиронос - Тельман;14;loc
+UAD_BO;5;Chaldovar-Rovnoe-Kirov ;Чалдовар - Ровное - Киров;Чалдовар - Ровное - Киров;20;loc
+UAD_BO;5;Chaldovar-F2-Rovnoe;Чалдовар - F2 - Ровное;Чалдовар - F2 - Ровное;15;loc
+UAD_BO;5;Chaldovar-Cholokaryk ;Чалдовар - Чолокарык;Чалдовар - Чолокарык;8,1;loc
+UAD_BO;5;Chaldovar-Kenzhebai ;Чалдовар - Кенжебай;Чалдовар - Кенжебай;11;loc
+UAD_BO;5;Chaldovar-Toka ;Чалдовар - Тока;Чалдовар - Тока;25;loc
+UAD_BO;5;Partsezd-Chorgolo ;Партсъезд - Чорголо;Партсъезд - Чорголо;9;loc
+UAD_BO;5;Kurpuldek-Aerodrome ;Курпулдек - Аэродром;Курпулдек - Аэродром;1;loc
+UAD_BO;5;Kaptalaryk-Kumaryk ;Капталарык - Кумарык;Капталарык - Кумарык;12;loc
+UAD_BO;5;Erkinsay-Kumaryk ;Эркинсай - Кумарык;Эркинсай - Кумарык;15;loc
+UAD_BO;5;Voznesenovka-Erkinsay;Вознесеновка - Эркинсай;Вознесеновка - Эркинсай;28;loc
+UAD_BO;5;Kant-ABZ;Кант - АБЗ;Кант - АБЗ;12,2;nat
+UAD_BO;5;Lower Nooruz-Zherkazar- GES5 with access road to Druzhba v. ;Нижний Нооруз - Жерказар - ГЭС5 с подъездной дорогой к селу Дружба;Нижний Нооруз - Жерказар - ГЭС5 с подъездной дорогой к селу Дружба;10,4;loc
+UAD_BO;9;Dmitrievka-Birdik-Hunchi- Milyanfan ;Дмитриевка - Бирдик - Хунчи - Милянфан;Дмитриевка - Бирдик - Хунчи - Милянфан;17;loc
+UAD_BO;9;Kant-Ak Kuduk ;Кант - Ак Кудук;Кант - Ак Кудук;9,6;loc
+UAD_BO;9;Tuz-Zharbashy- Internatsionalnoe;Туз - Жарбашы - Интернациональное;Туз - Жарбашы - Интернациональное;16,4;loc
+UAD_BO;9;Kant-Zheek- Dmitrievka ;Кант - Жээк - Дмитриевка;Кант - Жээк - Дмитриевка;6,8;loc
+UAD_BO;22;Kant-Karl Marks- Internatsionalnoe;Кант - Карл Маркс - Интернациональное;Кант - Карл Маркс - Интернациональное;18,4;loc
+UAD_BO;22;Novopokrovka- Sary Jon ;Новопокровка - Сары Жон;Новопокровка - Сары Жон;12;loc
+UAD_BO;22;Novopokrovka- Aerodrome ;Новопокровка - Аэродром;Новопокровка - Аэродром;4,9;loc
+UAD_BO;22;Novopokrovka-Tuz;Новопокровка - Туз;Новопокровка - Туз;15,2;loc
+UAD_BO;22;Chondaly-Pionerlager-Dom Invalidov;Чондалы - Пионерлагерь - Дом инвалидов;Чондалы - Пионерлагерь - Дом инвалидов;6,6;loc
+UAD_BO;22;Chondaly-Leninskoe;Чондалы - Ленинское;Чондалы - Ленинское;13,7;loc
+UAD_BO;22;Dmitrievka-Birdik ;Дмитриевка - Бирдик;Дмитриевка - Бирдик;10,2;loc
+UAD_BO;22;Kant-Gornaya Serafimovka with access road to Dom Invalidov ;Кант - Горная Серафимовка с подъездной дорогой к Дому инвалидов;Кант - Горная Серафимовка с подъездной дорогой к Дому инвалидов;24;loc
+UAD_BO;22;Zheek-Gagarin ;Жээн - Гагарин;Жээн - Гагарин;5;loc
+UAD_BO;22;GES5-Kant- Milyanfan;ГЭС5 - Кант - Милянфан;ГЭС5 - Кант - Милянфан;23,5;loc
+UAD_BO;22;Osh-Aravan-Chekabad;Ош - Араван - Чекабад;Ош - Араван - Чекабад;31,4;inter
+UAD_BO;22;Nookat-Aravan-Tobokorgon;Ноокат - Араван - Тобокоргон;Ноокат - Араван - Тобокоргон;35;nat
+UAD_BO;22;Karavan-Pahtachi 4-28 km;Караван - Пахтачы 4-28км;Караван - Пахтачы 4-28км;28;nat
+UAD_BO;22;ХХII Partsyezd-Lenin;22 Партсъезд - Ленин;23 Партсъезд - Ленин;8;loc
+UAD_BO;22;Uygur Abad-Langar-Tepe Kurgan;Уйгур Абад - Лангар - Тепе Курган;Уйгур Абад - Лангар - Тепе Курган;6;loc
+UAD_BO;23;Aravan-Mangit through Oktyabr;Араван - Мангит через Октябрь;Араван - Мангит через Октябрь;11;loc
+UAD_BO;23;Il'ich-Kerkidon;Ильич - Керкидон;Ильич - Керкидон;16;loc
+UAD_BO;23;13 km Osh-Aravan-Gulbakhor;13 км Ош - Араван - Гульбахор;14 км Ош - Араван - Гульбахор;10;loc
+UAD_BO;26;Tepe Kurgan-Chertik;Тепе Курган - Чертик;Тепе Курган - Чертик;5;loc
+UAD_BO;26;Tepe Kurgan-Okchi;Тепе Курган - Окчи;Тепе Курган - Окчи;4;loc
+UAD_BO;26;Gulbakhor-Kara Tash;Гульбахор - Кара Таш;Гульбахор - Кара Таш;15;loc
+UAD_BO;26;Kommunizm-Charbak ;Коммунизм - Чарбак;Коммунизм - Чарбак;4;loc
+UAD_BO;26;Akshar-Zhany Aryk;Акшар - Жаны Арык;Акшар - Жаны Арык;4;loc
+UAD_BO;26;Pakhtachi-Sary Tash;Пахтачы - Сары таш ;Пахтачы - Сары таш ;4;loc
+UAD_BO;26;Kochubayevo-Kokolopash;Кочубаево - Коколопаш;Кочубаево - Коколопаш;4;loc
+UAD_BO;26;Kochubayevo-Sutkor;Кочубаево - Суткор;Кочубаево - Суткор;9;loc
+UAD_BO;26;Aravan-Toomoyun;Араван - Тоомоюн;Араван - Тоомоюн;38;loc
+UAD_BO;26;Osh-Bishkek (Kara Suu-Sawai) ;Ош - Бишкек (Кара Суу - Савай);Ош - Бишкек (Кара Суу - Савай);9;inter
+UAD_BO;26;Osh-Kara Suu-Myrzake;Ош - Кара Суу - Мырзаке;Ош - Кара Суу - Мырзаке;16;inter
+UAD_BO;26;Kara Suu-Otuzadyr ;Кара Суу - Отузадыр;Кара Суу - Отузадыр;28;nat
+UAD_BO;30;Kashkarkyshtak-Airport;Кашкаркыштак - Аэропорт;Кашкаркыштак - Аэропорт;7;nat
+UAD_BO;30;Kommunizm-Agartuu-Madaniyat;Коммунизм - Агартуу - Маданият;Коммунизм - Агартуу - Маданият;13;loc
+UAD_BO;30;Nariman-kolhoz Lenina;Нариман - Колхоз Ленина ;Нариман - Колхоз Ленина ;4;loc
+UAD_BO;30;Kashkarkyshtak-Kenzhekul;Кашкаркыштак - Кенжекул;Кашкаркыштак - Кенжекул;6;loc
+UAD_BO;38;7 km PAD-kolhoz Frunze;7 км ПАД - Колхоз Фрунзе;8 км ПАД - Колхоз Фрунзе;2;loc
+UAD_BO;38;Karasuu-Oktyabr-Kyzylkoshchu;Карасуу - Октябрь - Кызылкошчу;Карасуу - Октябрь - Кызылкошчу;14;loc
+UAD_BO;38;Sadyrbay-Karatay;Садырбай - Каратай;Садырбай - Каратай;13;loc
+UAD_BO;38;Shait-Tyube-Zhdanov;Шаит - Тюбе - Жданов;Шаит - Тюбе - Жданов;12;loc
+UAD_BO;38;Mady-Uchkun;Мады - Учкун;Мады - Учкун;7;loc
+UAD_BO;38;Kashkarkyshtak-Madaniyat;Кашкаркыштак - Маданият;Кашкаркыштак - Маданият;4;loc
+UAD_BO;38;Kurbankara-Kampyr-Ravat;Курбанкара - Кампыр - Рават;Курбанкара - Кампыр - Рават;22;loc
+UAD_BO;956;Kommunizm-Aktash-Shvernik ;Коммунизм - Акташ - Шверник;Коммунизм - Акташ - Шверник;9;loc
+UAD_BO;956;Orto-Mechet'-Kyzylsuu;Орто - Мечеть - Кызылсуу;Орто - Мечеть - Кызылсуу;33;loc
+UAD_BO;956;Zhanyaryk-Pravda;Жаныарык - Правда;Жаныарык - Правда;6;loc
+UAD_BO;956;Zhanyaryk-Kyzylsuu;Жаныарык - Кызылсуу;Жаныарык - Кызылсуу;37;loc
+UAD_BO;956;7 km PAD-Karasogot;7 км ПАД - Карасогот;8 км ПАД - Карасогот;25;loc
+UAD_BO;956;Osh-selhoz Kara-Suu;Ош - сельхоз Кара Суу;Ош - сельхоз Кара Суу;16;loc
+UAD_BO;956;Osh-Mamazhan;Ош - Мамажан;Ош - Мамажан;5;loc
+UAD_OBI;2;Karasuu-Kampy-Ravat;Карасуу - Кампы - Рават;Карасуу - Кампы - Рават;8;loc
+UAD_OBI;2;Osh-Batken-Isfana;Ош - Баткен - Исфана;Ош - Баткен - Исфана;109;inter
+UAD_OBI;2;Akturpak-Otukchu;Актурпак - Отукчу;Актурпак - Отукчу;24;loc
+UAD_OBI;2;Uchkorgon Chauvay;Учкоргон Чаувай;Учкоргон Чаувай;26;loc
+UAD_OBI;2;Uchkorgon-Kuvasai;Учкоргон Кувасай;Учкоргон Кувасай;8;loc
+UAD_OBI;2;Nefteprom-Shyrban;Нефтепром - Шырбан;Нефтепром - Шырбан;13;loc
+UAD_OBI;2;Kan-Burbalyk;Кан - Бурбалык;Кан - Бурбалык;18;loc
+UAD_OBI;2;Sur-Ormosh Syrt;Сур - Ормош Сырт;Сур - Ормош Сырт;6;loc
+UAD_OBI;2;Moloteskey-Jal;Молотескей - Джал;Молотескей - Джал;12;loc
+UAD_OBI;2;Halmion-Tashtyube;Халмион - Таштюбе;Халмион - Таштюбе;20;loc
+UAD_OBI;2;Alga-Kaytmas;Алга - Кайтмасс;Алга - Кайтмасс;30;loc
+UAD_OBI;2;Karashoro-Karakazyk;Карашоро - Караказык;Карашоро - Караказык;43;loc
+UAD_OBI;2;Uch Korgon-Tengizbay;Уч Коргон - Тенгизбай;Уч Коргон - Тенгизбай;67;loc
+UAD_OBI;2;Kyzyl-Bulak-Tamasha;Кызыл - Булак - Тамаша;Кызыл - Булак - Тамаша;33;loc
+UAD_OBI;2;Uchkorgon 61st patrol;Учкоргон - 61й пост;Учкоргон - 61й пост;11;loc
+UAD_OBI;2;Taraz - Talas - Suusamyr;Тараз - Талас - Суусамыр;Тараз - Талас - Суусамыр;34,5;inter
+UAD_OBI;13;Talas - Kalinin - Bakaiata;Талас - Калинин - Бакай Ата;Талас - Калинин - Бакай Ата;30;nat
+UAD_OBI;13;Klyuchevka - May - Bakyyan;Ключевка - Май - Бакыян;Ключевка - Май - Бакыян;13,5;loc
+UAD_OBI;13;Kenaral - Kalinin;Кенерал - Калинин;Кенерал - Калинин;5;loc
+UAD_OBI;13;Bakaiata - Namatbek;Бакай Ата - Наматбек;Бакай Ата - Наматбек;4;loc
+UAD_OBI;13;Bakaiata - Uchemchek;Бакай Ата - Учэмчек;Бакай Ата - Учэмчек;12;loc
+UAD_OBI;13;Minbulak - Namatbek;Минбулак - Наматбек ;Минбулак - Наматбек ;6;loc
+UAD_OBI;13;Kyzyloktyabr - Koktash;Кызыл Октябрь - Кокташ;Кызыл Октябрь - Кокташ;6;loc
+UAD_OBI;13;Ozgorush - Nyldy;Озгоруш - Нылды;Озгоруш - Нылды;11;loc
+UAD_OBI;13;Kumushtash stow;Урочище Кумушташ;Урочище Кумушташ;48;loc
+UAD_OBI;13;Urmaral stow;Урочище Урмарал;Урочище Урмарал;30;loc
+UAD_OBI;13;Karakoyun stow;Урочище Каракоюн;Урочище Каракоюн;15;loc
+UAD_OBI;13;Tabylgyty stow;Урочище Табылгыты;Урочище Табылгыты;15;loc
+UAD_OBI;46;Chiyimtash stow;Урочище Чыйымташ;Урочище Чыйымташ;4;loc
+UAD_OBI;46;Bakaiata - Kumushtak stow;Бакай Ата - Урочище Кумуштак;Бакай Ата - Урочище Кумуштак;10;loc
+UAD_OBI;46;Taraz - Talas - Suusamyr;Тараз - Талас - Суусамыр;Тараз - Талас - Суусамыр;19;inter
+UAD_OBI;46;Talas - Pokrovka - Kaiyndy;Талас - Покровка - Кайнды;Талас - Покровка - Кайнды;31;nat
+UAD_OBI;46;Pokrovka - Balasaruu;Покровка - Баласаруу;Покровка - Баласаруу;10;loc
+UAD_OBI;46;Manas - Novodonetsk;Манас - Новодонекц;Манас - Новодонекц;11;loc
+UAD_OBI;46;Uch-Korgon;Уч Коргон;Уч Коргон;7;loc
+UAD_OBI;46;Pokrovka - MTF;Покровка - МТФ;Покровка - МТФ;5;loc
+UAD_OBI;46;Pokrovka - Zhaiylgan - Minteke;Покровка - Жайылган - Минтеке;Покровка - Жайылган - Минтеке;38;loc
+UAD_OBI;46;Karaarcha;Караарча;Караарча;8;loc
+UAD_OBI;46;PRP;ПРП;ПРП;5;loc
+UAD_OBI;46;Nyldy - Achyktash;Нылды - Ачыкташ;Нылды - Ачыкташ;22;loc
+UAD_OBI;46;Chon Kapka - Aktash - Mayskoye ;Чон Капка - Акташ - Майское;Чон Капка - Акташ - Майское;16;loc
+UAD_OBI;46;Gr.Plotina - pov.s.Pokrovka;Плотина - Покровка;Плотина - Покровка;8;loc
+UAD_OSI;16;Manas road;трасса Манас;трасса Манас;3;loc
+UAD_OSI;16;Syogot road;трасса Сыйгот;трасса Сыйгот;3;loc
+UAD_OSI;16;Uchkorgon road;трасса Учкоргон;трасса Учкоргон;4;loc
+UAD_OSI;16;Sarybulak road;трасса Сарыбулак;трасса Сарыбулак;3;loc
+UAD_OSI;21;Bishkek-Osh с 596-613km;Бишкек - Ош 596-613 км;Бишкек - Ош 596-613 км;19;inter
+UAD_OSI;21;Myrzake-Karakulja-Alaiku;Мырзаке - каракулжа - Алайку;Мырзаке - каракулжа - Алайку;8;inter
+UAD_OSI;21;Myrzake-Karashoro;Мырзаке - Карашоро;Мырзаке - Карашоро;69;nat
+UAD_OSI;21;Jylandy-Iirisuu-Changet;Жыланды - Ийрисуу - Чангет;Жыланды - Ийрисуу - Чангет;35;nat
+UAD_OSI;21;Uzgen-Zerger;Узгер - Зергер;Узгер - Зергер;21;loc
+UAD_OSI;21;Uzgen-Kenesh-Aigyrjal;Узген - Кенеш - Айгыржал;Узген - Кенеш - Айгыржал;21;loc
+UAD_OSI;21;Myrzake-Komsomol;Мырзаке - Комсомол;Мырзаке - Комсомол;17;loc
+UAD_OSI;21;Kolduk-Nichke;Колдук - Ничке;Колдук - Ничке;9;loc
+UAD_OSI;21;Jeenchi-Erkintoo;Jeenchi-Erkintoo;Jeenchi-Erkintoo;30;loc
+UAD_OSI;21;Gairat-Nichkesai;Жээнчи - Экрин тоо;Жээнчи - Экрин тоо;10;loc
+UAD_OSI;21;Bolshevik-Semizkol;Большевик - Семизкол;Большевик - Семизкол;7;loc
+UAD_OSI;21;Uzgen-Chymbai;Узген - Чымбай;Узген - Чымбай;16;loc
+UAD_OSI;21;Uzgen-Myrzake;Узген - Мызаке;Узген - Мызаке;14;loc
+UAD_OSI;21;Bazarkorgon-Beshbadam;Базаркоргон - Бешбадам;Базаркоргон - Бешбадам;37;loc
+UAD_OSI;21;Bazarkorgon-Beshikjon through Karacha-Kairma;Базаркоргон - Бешикжон через Карача - Кайырма;Базаркоргон - Бешикжон через Карача - Кайырма;23;loc
+UAD_OSI;21;Aktaylakata-Kyzylay;Актайлаката - Кызылай;Актайлаката - Кызылай;14;loc
+UAD_OSI;21;Bazarkorgon-Maslozavod;Базаркоргон - Маслозавод;Базаркоргон - Маслозавод;3;loc
+UAD_OSI;37;Bazarkorgon-Kolot;Базаркоргон - Колот;Базаркоргон - Колот;16;loc
+UAD_OSI;37;Bazarkorgon-Seydikum;Базаркоргон - Сейдикум;Базаркоргон - Сейдикум;20;loc
+UAD_OSI;37;Kyzylunkur-Kenkol;Кызылункур - Кенкол;Кызылункур - Кенкол;26;loc
+UAD_OSI;37;Shaidan-Abdraimov;Шайдан - Абдраимов;Шайдан - Абдраимов;6;loc
+UAD_OSI;37;Taldybulak-Kaba;Талдыбулак - Каба;Талдыбулак - Каба;14;loc
+UAD_OSI;37;Kyzyloktyabr-Uchbulak;Кызыл Октябрь - Учбулак;Кызыл Октябрь - Учбулак;15;loc
+UAD_OSI;37;Bazarkorgon-Kairma;Базаркоргон - Кайырма;Базаркоргон - Кайырма;10;loc
+UAD_OSI;37;Bazarkorgon-bridge Karaunkur;Базаркоргон - мост Караункур;Базаркоргон - мост Караункур;3;loc
+UAD_OSI;37;Bazarkorgon-Arslanbob;Базаркоргон - Арсланбоб;Базаркоргон - Арсланбоб;65;nat
+UAD_OSI;37;Leninzhol-Shaydan;Ленинжол - Шайдан;Ленинжол - Шайдан;10;loc
+UAD_OSI;37;Leninzhol-Kazarmazar-Sere;Ленинжо - Казарман - Сере;Ленинжо - Казарман - Сере;73;loc
+UAD_OSI;37;Kochkorata-Maylisay;Кочкората - Майлисай;Кочкората - Майлисай;29;loc
+UAD_OSI;37;Kochkorata-Tashchy-Bulak-Khilya-KH.punkt;Кочкората - Ташчы Булак - Хиля - KH punkt;Кочкората - Ташчы Булак - Хиля - KH punkt;10;loc
+UAD_OSI;37;Rakhmanzhan-Karabulak;Рахманжан - Карабулак;Рахманжан - Карабулак;33;loc
+UAD_OSI;37;Nooken-Karabulak-Kochkorata;Ноокен - Карабулак - Кочкората;Ноокен - Карабулак - Кочкората;31;loc
+UAD_OSI;37;Leninzhol-Aral-Sakaldy;Ленинжол - Арал - Сакалды;Ленинжол - Арал - Сакалды;27;loc
+UAD_OSI;37;Leninzhol-Beshzhygach-KH.punkt-Birdik;Ленинжол - Бешжыгач - KH.punkt - Бирдик;Ленинжол - Бешжыгач - KH.punkt - Бирдик;9;loc
+UAD_OSI;37;Kolkhoz Komintern-Kommunizm;Колхоз Коминтерн - Куммунизм;Колхоз Коминтерн - Куммунизм;5;loc
+UAD_OSI;37;Kommunizm-Bobuy-Rakhmanzhan;Коммунизм - Бобуй - Рахманжан;Коммунизм - Бобуй - Рахманжан;9;loc
+UAD_OSI;37;Leninskoye-Sakaldy;Ленинское - Сакалды;Ленинское - Сакалды;9;loc
+UAD_OSI;38;Karlmarks-Noshken;Карл Маркс - Ношкен;Карл Маркс - Ношкен;18;loc
+UAD_OSI;44;Suzak-Kadu;Сузак - Каду;Сузак - Каду;50;nat
+UAD_OSI;44;Blagoveshenka-Karakul;Благовещенка - Каракуль;Благовещенка - Каракуль;41;loc
+UAD_OSI;44;Jalalabat-Blagoveshenka;ЖалалАбад - Благовещенка;ЖалалАбад - Благовещенка;2;loc
+UAD_OSI;44;Kommunizm-Zhanydyykan;Коммунизм - Жаныдыйкан;Коммунизм - Жаныдыйкан;6;loc
+UAD_OSI;44;Sarybulak-Ortok;Сарыбулак - Орток;Сарыбулак - Орток;12;loc
+UAD_OSI;44;Kashkaterek-Katranky;Кашкатерек - Катранкы;Кашкатерек - Катранкы;26;loc
+UAD_OSI;44;Tashtak-Achy ;Таштак - Ачы;Таштак - Ачы;17;loc
+UAD_OSI;44;Ortok-Kashkasuu;Орток - Кашкасуу;Орток - Кашкасуу;15;loc
+UAD_OSI;44;Aktook-Karamart;Актоок - Карамарт;Актоок - Карамарт;5;loc
+UAD_OSI;44;Chokotobo-Eshme;Чоктобо - Эшме;Чоктобо - Эшме;27;loc
+UAD_OSI;44;Aktook-Molbulak;Актоок - Молбулак;Актоок - Молбулак;1,6;loc
+UAD_OSI;44;Taraz-Talas-Suusamyr;Тараз - Талас - Суусамыр;Тараз - Талас - Суусамыр;38;inter
+UAD_OSI;44;Kirovka-St. Maimak ;Кировка - станция Маймак;Кировка - станция Маймак;27;nat
+UAD_OSI;44;Amanbaeva - Tuz Ashu ;Аманбаева - Туз Ашу;Аманбаева - Туз Ашу;31;nat
+UAD_OSI;44;Kirovka - Chatkal;Кировка - Чаткал;Кировка - Чаткал;90;nat
+UAD_OSI;44;Kirovka - Chimkent;Кировка - Чимкент;Кировка - Чимкент;7;loc
+UAD_OSI;44;Kirovka - Greben' - Plotina;Кировка - Гребень - Плотина;Кировка - Гребень - Плотина;11;loc
+UAD_OSI;45;Karabuura - Doskain;Карабуура - Доскайын;Карабуура - Доскайын;19;loc
+UAD_OSI;45;Gosdorga Bakair;Госдорога Бакаир;Госдорога Бакаир;11;loc
+UAD_OSI;45;Amanbayeva - Lushchikhina;Аманбаева - Лущихина;Аманбаева - Лущихина;20;loc
+UAD_OSI;45;Gosdoroga Kuru Bakair;ГосдорогаКуру Бакаир;ГосдорогаКуру Бакаир;9;loc
+UAD_OSI;45;Gosdoroga Akzhar;Госдорога Акжар;Госдорога Акжар;2;loc
+UAD_OSI;45;Suluu - Maymak st. Maymak;Сулуу - Станция Маймак - Маймак;Сулуу - Станция Маймак - Маймак;8;loc
+UAD_OSI;45;Amanbayeva - Koksay;Аманбаева - Коксай;Аманбаева - Коксай;16;loc
+UAD_OSI;45;Kok Say - Babakhan;Кок Сай - Бабахан;Кок Сай - Бабахан;22;loc
+UAD_OSI;45;Kok Say - Kaynar - Kok - Say;Кок Сай - Кайнар - Кок Сай;Кок Сай - Кайнар - Кок Сай;12;loc
+UAD_OSI;45;Kok Say - Archagul;Кок Сай - Арчагуль;Кок Сай - Арчагуль;3;loc
+UAD_OSI;45;Oygain - Babakhan;Ойгайын - Бабахан;Ойгайын - Бабахан;39;loc
+UAD_OSI;45;Amanbayeva - Oktyabrskoye;Аманбаева - Октябрьское;Аманбаева - Октябрьское;3;loc
+UAD_OSI;45;Sheker - Archagul;Шекер - Арчагуль;Шекер - Арчагуль;8;loc
+UAD_OSI;45;Kok Say - Sary Unkur;Кок Сай - Сары Ункур;Кок Сай - Сары Ункур;3;loc
+UAD_OSI;45;Gosdoroga Kok Dobo;Госдорога Кок Добо;Госдорога Кок Добо;3;loc
+UAD_OSI;45;Access road to Chimkent;Подъездная дорога к Шымкенту;Подъездная дорога к Шымкенту;3,4;loc
+UAD_OSI;45;Klyuchovka - May - Bakiyan;Ключовка - Май - Бакиян;Ключовка - Май - Бакиян;4,5;loc
+UAD_OSI;45;Gosdoroga - Sarymsak;Госдорога - Сарымсак;Госдорога - Сарымсак;17;loc
+UAD_OSI;45;Balykchy-Ananyevo-Karakol l40-156km;Балыкчы - Ааньево - Каракол 140-156 км;Балыкчы - Ааньево - Каракол 140-156 км;116;inter
+UAD_OSI;45;Grigoryevka-Pristan';Григорьевка - Пристань;Григорьевка - Пристань;8;nat
+UAD_OSI;45;Cholpon Ata-Zolotaya Gorka;Чолпон Ата - Золотая Горка;Чолпон Ата - Золотая Горка;4;loc
+UAD_OSI;45;Turbaza-Ananyevo-Kok Dobo;Турбаза - Ананьево - Кок Добо;Турбаза - Ананьево - Кок Добо;11,8;loc
+UAD_OSI;959;Kalinin-Liman;Калинин - Лиман;Калинин - Лиман;14;loc
+UAD_OSI;959;Chon Sary Oy-Tegerek;Чон Сары Ой - Тегерек;Чон Сары Ой - Тегерек;10;loc
+UAD_OSI;959;Progress-Ak Shybak;Прогресс - Ак Шыбак;Прогресс - Ак Шыбак;9;loc
+UAD_OSI;959;Bosteri-Tegerek;Бостери - Тегерек;Бостери - Тегерек;10;loc
+UAD_OSI;959;Komsomol M.T.F.;Комсмол МТФ;Комсмол МТФ;12;loc
+UAD_OSI;959;Korumdu-Kum Bel;Корумду - Кум Бел;Корумду - Кум Бел;10,5;loc
+UAD_OSI;959;Temirovka-Chon Ak Suu;Темировка - Чон Ак Суу;Темировка - Чон Ак Суу;13;loc
+UAD_OSI;959;Grigoryevka-Kol-Kashka Suu;Григорьевка - Кол - КашкаСуу;Григорьевка - Кол - КашкаСуу;16;loc
+UAD_OSI;959;Semenovka-Ak Suu;Семеновка - Ак Суу ;Семеновка - Ак Суу ;27;loc
+UAD_OSI;959;Zharkymbayevo-ABTs-Karal Dobo;Жаркымбаево - АБТ - Кара Добо;Жаркымбаево - АБТ - Кара Добо;6;loc
+UAD_OSI;959;Oruktu-Uzun Bulak;Орукту - Узун Булак;Орукту - Узун Булак;9;loc
+UAD_OSI;959;Naryn-Baetovo 0-83km ;Нарын - Баетово 0-83 км;Нарын - Баетово 0-83 км;83;nat
+UAD_OSI;959;On Archa-Ashyrma 0-82km;Он Арча - Ашырма 0-82 км;Он Арча - Ашырма 0-82 км;82;nat
+UAD_OSI;959;Naryn-Oruktam 0-75km ;Нарын - Оруктам 0-75 км;Нарын - Оруктам 0-75 км;75;nat
+UAD_OSI;960;Ekinaryn-Kensaz 0-8km;Экинарын - Кенсаз 0-8 км;Экинарын - Кенсаз 0-8 км;18;nat
+UAD_OSI;960;Gosdoroga Pioneer ;Госдорога Пионер;Госдорога Пионер;4,5;loc
+UAD_OSI;960;Zhanbulak-Kara Too ;Жанбулак - Кара Тоо;Жанбулак - Кара Тоо;25;loc
+UAD_OSI;960;Gosdoroga Shoro ;госдорога Шоро;госдорога Шоро;5;loc
+UAD-JAB;12;Gosdoroga 8-Mart ;госдорога 8 Марта;госдорога 8 Марта;7;loc
+UAD-JAB;12;Gosdoroga Uch Nura ;госдорога Уч Нура;госдорога Уч Нура;55;loc
+UAD-JAB;12;Uchkun-Ortosyrt ;Учкун - Ортосырт;Учкун - Ортосырт;35;loc
+UAD-JAB;12;Dostuck Sary Too ;Достук Сары Тоо;Достук Сары Тоо;5,6;loc
+UAD-JAB;12;Chalkak 0-0km;Чалкак 0-0 км;Чалкак 0-0 км;10;loc
+UAD-JAB;12;Bishkek-Osh 9-209 km;Бишкек - Ош 9-209км;Бишкек - Ош 9-209км;200;inter
+UAD-JAB;12;Kochkor-Aral-Too Ashuu;Кочкор - Арал - Тоо Ашуу ;Кочкор - Арал - Тоо Ашуу ;85;inter
+UAD-JAB;12;Suusamyr-Zapadnyi Karakol;Суусамыр - Западный Каракол;Суусамыр - Западный Каракол;84;nat
+UAD-JAB;12;Tooluk- Sarykamysh;Тоолук - Сарыкамыш;Тоолук - Сарыкамыш;45;nat
+UAD-JAB;12;Bishkek -Naryn-Torugart 32,4-82,0 km;Бишкек - Нарын - Торугарт 32,4-82,0 км;Бишкек - Нарын - Торугарт 32,4-82,0 км;48,7;inter
+UAD-JAB;12;Tokmok-Donaryk-Rot Front-Ivanovka with turning to Yurevka v. M-005 ;Токмок - Донарык - Рот Фронт - Ивановка с поворотом к селу Юрьевка М-005;Токмок - Донарык - Рот Фронт - Ивановка с поворотом к селу Юрьевка М-006;49;nat
+UAD-JAB;17;Kegety-East Karakol M-006 ;Кегети - Восточный Каракол М-006;Кегети - Восточный Каракол М-007;43;nat
+UAD-JAB;17;Menetkech-Tower Burana-Donaryk;Менеткеч - Башня Бурана - Донарык;Менеткеч - Башня Бурана - Донарык;9;nat
+UAD-JAB;17;ABZ-Pionerlager;АБЗ - Пионерлагерь;АБЗ - Пионерлагерь;3;loc
+UAD-JAB;17;Tokmok-Progress-Kairma;Токмок - Прогресс - Каирма;Токмок - Прогресс - Каирма;15;loc
+UAD-JAB;17;Tokmok-Saylyk;Токмок - Сайлык;Токмок - Сайлык;6;loc
+UAD-JAB;17;67th km of Bishkek-Torugart road- Koshkorgon-Iskra;67й км трассы Бишкек - Торугарт - Кошкоргон - Искра;67й км трассы Бишкек - Торугарт - Кошкоргон - Искра;17;loc
+UAD-JAB;17;Zhany Turmush-Kara Dobo;Жаны Турмуш - Кара Добо;Жаны Турмуш - Кара Добо;6;loc
+UAD-JAB;17;Leskhoz-Turukayyn;Лесхоз - Турукайын;Лесхоз - Турукайын;5;loc
+UAD-JAB;17;Progress -10th km of Tokmok-Shamsi road;Прогресс - 10й км трассы Токмок - Шамси;Прогресс - 10й км трассы Токмок - Шамси;4;loc
+UAD-JAB;17;Kyzyl Suu gorge-Shamsi;Ущелье Кызыл Суу - Шамси;Ущелье Кызыл Суу - Шамси;17;loc
+UAD-JAB;17;Koshoy-Alchaluu-Kyzyl Asker ;Кошой - Алчалуу - Кызыл Аскер;Кошой - Алчалуу - Кызыл Аскер;13;loc
+UAD-JAB;17;Alchalu-Sovetskoye-Donaryk;Алчалуу - Советское - Донарык;Алчалуу - Советское - Донарык;11;loc
+UAD-JAB;17;Sovetskoye-Kegety;Советское - Кегети;Советское - Кегети;5;loc
+UAD-JAB;17;Chapayevo-Kegety-Arpatektir;Чапаево - Кегети - Арпатеткир;Чапаево - Кегети - Арпатеткир;14;loc
+UAD-JAB;17;Kalygul-Shkola-Internat;Калыгул - Школа-интернат;Калыгул - Школа-интернат;9;loc
+UAD-JAB;17;Chuy-Ak Beshim;Чуй - Ак Бешим;Чуй - Ак Бешим;4;loc
+UAD-JAB;17;Madaniyat-Kyzyl Suu gorge-Kara Moko-Konorchok;Маданият - Ущелье Кызыл Суу - Кара Моко - Конорчок;Маданият - Ущелье Кызыл Суу - Кара Моко - Конорчок;38;loc
+UAD-JAB;27;Bishkek-Naryn-Torugart 203-264 km;Бишкек - Нарын - Торугарт 203-264 км;Бишкек - Нарын - Торугарт 203-264 км;61;inter
+UAD-JAB;27;Zhanyzhol-Zhoonaryk 0-11,2 km;Жаныжол - Жоонарык 0-11,2 км;Жаныжол - Жоонарык 0-11,2 км;11,2;inter
+UAD-JAB;27;Kokmoynok-Kuvaky-Kochkor 0-26,1km ;Кокмойнок - Кувакы - Кочкор 0-26,1 км;Кокмойнок - Кувакы - Кочкор 0-26,1 км;19,9;inter
+UAD-JAB;27;Kochkor-Aral 0-41km ;Кочкор - Арал 0-41 км;Кочкор - Арал 0-41 км;41;inter
+UAD-JAB;27;Komsomol-Karakol pass 0-42,7 km;Комсомол - перевал Каракол 0-42,7 км;Комсомол - перевал Каракол 0-42,7 км;42,7;nat
+UAD-JAB;27;Kegeti-Vostochniy Karakol 0-14,4 km;Кегети - Восточный Каракол 0-14,4 км;Кегети - Восточный Каракол 0-14,4 км;14,4;nat
+UAD-JAB;27;Kochkor-Kommunizm 0-80 km;Кочкор - Коммунизм 0-80 км;Кочкор - Коммунизм 0-80 км;80;nat
+UAD-JAB;27;Kochkor-Isakeev 0-18 km ;Кочкор - Исакеев 0-18 км;Кочкор - Исакеев 0-18 км;18;loc
+UAD-JAB;31;Kochkor-Ormonkhan 0-30 km;Кочкор - Ормонхан 0-30 км;Кочкор - Ормонхан 0-30 км;30;loc
+UAD-JAB;31;Kochkor-Arsy-Kyzylompol 0-27 km;Кочкор - Арсы - Кызыломпол 0-27 км;Кочкор - Арсы - Кызыломпол 0-27 км;27;loc
+UAD-JAB;31;Kumdobo-Saralasaz 0-31 km;Кумдобо - Сараласаз 0-31 км;Кумдобо - Сараласаз 0-31 км;31;loc
+UAD-JAB;31;Kommunizm-Sook stow 0-40 km;Коммунизм - Урочище Соок 0-40 км;Коммунизм - Урочище Соок 0-40 км;40;loc
+UAD-JAB;31;Semizbel-Karakungoy 0-10 km;Семизбел - Каракунгой 0-110 км;Семизбел - Каракунгой 0-110 км;10;loc
+UAD-JAB;31;Kyzyldobo-Ortok 0-16 km;Кызылдобо - Орток 0-16 км;Кызылдобо - Орток 0-16 км;16;loc
+UAD-JAB;31;Kokcholok-Chekildek 0-2 km;Кокчолок - Чекилдек 0-2 км;Кокчолок - Чекилдек 0-2 км;2;loc
+UAD-JAB;31;Kokjar-Chalay 0-16 km;Kokjar-Chalay 0-16 km;Kokjar-Chalay 0-16 km;16;loc
+UAD-JAB;31;Cholpon-Shakhtatuz 0-15km;Чолпон - Шахтатуз 0-15 км;Чолпон - Шахтатуз 0-15 км;15;loc
+UAD-JAB;31;Bishkek-Osh 613 - 664 km;Бишкек - Ош 613-664 км;Бишкек - Ош 613-664 км;51;inter
+UAD-JAB;31;Osh-Karasuu-Uzgen с 22-40km;Ош - Карасуу - Узген 22-40км;Ош - Карасуу - Узген 22-40км;18;inter
+UAD-JAB;31;Kurshab-Jalpaktash;Куршаб - Жалпакташ;Куршаб - Жалпакташ;42;nat
+UAD-JAB;31;Kurshab-Kyzylsenir ;Куршаб - Кызылсенир;Куршаб - Кызылсенир;5;loc
+UAD-JAB;50;Zhanchukur-Sheraly ;Жанчукур - Шерали;Жанчукур - Шерали;19;loc
+UAD-JAB;50;Kurshab-Karatash ;Куршаб - Караташ;Куршаб - Караташ;7;loc
+UAD-JAB;50;Kurshab-Alga-Agronom;Куршаб - Алга - Агроном;Куршаб - Алга - Агроном;12;loc
+UAD-JAB;50;Bishkek- Naryn-Torugart  367-539 км;Бишкек - Нарын - Торугарт 367-539 км;Бишкек - Нарын - Торугарт 367-539 км;172;inter
+UAD-JAB;50;Gosdoroga-Tashrabat 0-29 km ;Госдорога - Ташрабат 0-29 км;Госдорога - Ташрабат 0-29 км;29;nat
+UAD-JAB;50;Gosdoroga-Communism 0-3 km ;Госдорога - Коммунизм 0-3 км;Госдорога - Коммунизм 0-3 км;2;nat
+UAD-JAB;50;Gosdoroga-Atbashy 0-3 km;Госдорога - Ат Башы 0-3 км;Госдорога - Ат Башы 0-3 км;3;nat
+UAD-JAB;50;Kalinin-Achakaiyndy 0-14 km ;Калинин - Ачакайынды 0-14 км;Калинин - Ачакайынды 0-14 км;14;loc
+UAD-JAB;50;Gosdoroga-Kyzyltuu-Pogranichnik-Kalinin ;Госдорога - Кызылтуу - Пограничник - Калинин;Госдорога - Кызылтуу - Пограничник - Калинин;29;loc
+UAD-JAB;50;Pogranichnik-Keltebek 0-31 km;Пограничник - Келтебек 0-31км;Пограничник - Келтебек 0-31км;31;loc
+UAD-JAB;50;Lubyanoe-Oktyabrskoe-Chuiskoe;Лубяное - Октябрьское - Чуйское;Лубяное - Октябрьское - Чуйское;7;loc
+UAD-JAB;50;Grozd-Upper At-Bashy;Грозд - Верхний Ат Башы;Грозд - Верхний Ат Башы;5,5;loc
+UAD-JAB;50;Almaty-Bishkek-Tashkent (Bishkek-Kordai part) ;Алматы - Бишкек - Ташкент (отрезок Бишкек - Кордай);Алматы - Бишкек - Ташкент (отрезок Бишкек - Кордай);11,2;inter
+UAD-JAB;51;Access road to Bishkek from Kordai ;Подъездная дорога к Бишкеку из Кордая;Подъездная дорога к Бишкеку из Кордая;5,8;inter
+UAD-JAB;51;Bishkek -Naryn-Torugart;Бишкек - Нарын - Торугарт;Бишкек - Нарын - Торугарт;32,4;inter
+UAD-JAB;51;Krasnaya Rechka -Ysyk Ata ;Красная Речка - Ыссык Ата;Красная Речка - Ыссык Ата;45;nat
+UAD-JAB;51;Manas-Kamyshanovka;Манас - Камышановка;Манас - Камышановка;34;nat
+UAD-JAB;51;At Bashy channel-Lugovoye;Канал Ат Башы - Луговое;Канал Ат Башы - Луговое;32,1;nat
+UAD-JAB;51;Osh-Sary Tash-Irkeshtam;Ош - Сары Таш - Иркештам;Ош - Сары Таш - Иркештам;113;inter
+UAD-JAB;51;Gulcha-Korul-Suukdobo;Гульча - Корул - Суукдобо;Гульча - Корул - Суукдобо;32;nat
+UAD-JAB;51;Gulcho-Zhosholu-Ayutapan;Гульчо - Жошолу - Аютапан;Гульчо - Жошолу - Аютапан;33;loc
+UAD-JAB;51;85 km PAD-Budalyk;85 км ПАД - Будалык;86 км ПАД - Будалык;17;loc
+UAD-JAB;51;105 km PAD-Bulolu;105 км ПАД - Булолу;106 км ПАД - Булолу;17;loc
+UAD-JAB;51;115 km PAD-Askaly;115 км ПАД - Аскалы;116 км ПАД - Аскалы;15;loc
+UAD-JAB;51;Kyzylkorgon-Murdash;Кызлкоргон - Мурдаш;Кызлкоргон - Мурдаш;9;loc
+UAD-JAB;52;Sopukorgon-Terek;Сопукоргон - Терек;Сопукоргон - Терек;9;loc
+UAD-JAB;52;Arpa-Tektir-KablanKol;Арпа - Тектир - Кабланкол;Арпа - Тектир - Кабланкол;17;loc
+UAD-JAB;52;Gulcha-Kyzylsuu;Гульча - Кызылсуу;Гульча - Кызылсуу;24;loc
+UAD-JAB;52;Zhosholu-Karatoktu;Жошолу - Каратокту;Жошолу - Каратокту;11;loc
+UAD-JAB;52;145 km PAD-Madaniyat;145 км ПАД - Маданият;146 км ПАД - Маданият;4;loc
+UAD-JAB;52;155 km PAD -Kyzylalay;155 км ПАД - Кызылалай;156 км ПАД - Кызылалай;2;loc
+UAD-JAB;52;Budalyk-Kumshoro;Будалык - Кумшоро;Будалык - Кумшоро;2;loc
+UAD-JAB;52;Osh-Sary Tash-Irkeshtam ;Ош - Сарыташ - Иркештам;Ош - Сарыташ - Иркештам;112;inter
+UAD-JAB;52;Sary Tash-Kyzylart pass ;Сарыташ - перевал Кызыларт;Сарыташ - перевал Кызыларт;45;inter
+UAD-JAB;52;Sary Tash-Karamyk;Сарыташ - Карамык;Сарыташ - Карамык;30;inter
+UAD-JAB;52;Taichykpas-Koksuu;Тайчыкпас - Коксуу;Тайчыкпас - Коксуу;35;loc

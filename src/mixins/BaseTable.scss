@@ -1,0 +1,40 @@
+::v-deep .md-table-fixed-header-container {
+  width: 100%;
+  max-width: 100% !important;
+}
+
+.table-container {
+  position: relative;
+  height: calc(100vh - 300px);
+  overflow: auto;
+
+  .md-table {
+    width: 100%;
+    table-layout: fixed;
+  }
+
+  .md-table-head-label {
+    padding-right: 0;
+  }
+
+  .md-button+.md-button {
+    margin-left: 10px;
+  }
+
+}
+
+.blinking {
+  animation: blink-animation 1s linear infinite;
+}
+
+@keyframes blink-animation {
+  50% {
+    background-color: pink;
+  }
+}
+
+.clickable-cell {
+  cursor: pointer;
+  color: rgb(58, 141, 213);
+  text-decoration: underline;
+}
