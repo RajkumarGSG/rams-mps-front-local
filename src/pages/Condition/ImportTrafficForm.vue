@@ -7,8 +7,15 @@ Description: form for bulk import/upload of road data.
     <md-card>
       <md-card-content>
         <div class="md-layout-item md-small-size-100 md-size-20">
-          <BaseDropdown :label="$t('selections.select_import_type')" v-model="selectedImportType" :items="importTypesList"
-            @input='onImportTypeChange' />
+          <BaseDropdown
+            :label="$t('selections.select_import_type')"
+            v-model="selectedImportType"
+            :items="importTypesList"
+            item-text="description"
+            item-value="id"
+            @input="onImportTypeChange"
+          />
+
         </div>
         <div class="md-layout-item md-small-size-10.0 md-size-50">
           <md-field>
@@ -86,7 +93,9 @@ Description: form for bulk import/upload of road data.
         status: null,
         batch_id: null,
 
-        uploadInProgress: false
+        uploadInProgress: false,
+
+        importTypesList: [],
       }
     },
 
@@ -94,18 +103,10 @@ Description: form for bulk import/upload of road data.
       BaseDropdown
     },
 
-    async mounted() {
-      // Check if we are eligible to view the form
-      this.eligible = await this.checkIfScreenAllowed()
-      if (!this.eligible) {
-        this.onClose()
-        return
-      };
-    },
-
     methods: {
       ...mapActions({
         importLog: 'ReferenceData/IMPORT_LOG_ALL',
+        getImporttypes: 'LOAD_ALL_TRAFFIC_INSTALLATIONS',
       }),
       ...mapActions(['GET_ROAD_IMPORT_TEMPLATE', 'GET_SECTION_IMPORT_TEMPLATE', 'IMPORT_ROAD', 'IMPORT_SECTION']),
 
@@ -179,7 +180,44 @@ Description: form for bulk import/upload of road data.
         this.importTypeKey = desc
         this.importFile = null
         this.fileName.name = ''
+      },
+     async fetchTrafficInstallList() {
+        try {
+          const res = await this.LOAD_ALL_TRAFFIC_INSTALLATIONS()
+          console.log('Traffic Installations Response:', res)
+
+          if (Array.isArray(res)) {
+            this.importTypesList = res.map(item => ({
+              id: item.traffic_install_id,
+              description: item.traffic_install_desc
+            }))
+          } else {
+            console.warn('Expected an array but got:', res)
+          }
+        } catch (err) {
+          console.error('Failed to fetch traffic installations:', err)
+        }
       }
+    },
+
+    async mounted() {
+      // Check if we are eligible to view the form
+      this.eligible = await this.checkIfScreenAllowed()
+      if (!this.eligible) {
+        this.onClose()
+        return
+      };
+
+      const res = await this.getImporttypes();
+      if (Array.isArray(res)) {
+        this.importTypesList = res.map(item => ({
+          id: item.traffic_install_id,
+          description: item.traffic_install_desc
+        }))
+      } else {
+        console.warn('Expected an array but got:', res)
+      }
+      
     },
 
     computed: {
@@ -189,16 +227,19 @@ Description: form for bulk import/upload of road data.
 
       uploadDisabled() {
         return this.importFile === null || this.uploadInProgress === true
-      },
-
-      importTypesList() {
-        // TODO: Move to the RDB_Lookup table
-        return [
-          { id: 0, description: '', },
-          { id: 1, description: 'Road', },
-          { id: 2, description: 'Section', },
-        ]
       }
+
+      // importTypesList() {
+      //   // TODO: Move to the RDB_Lookup table
+      //   return [
+      //     { id: 0, description: '', },
+      //     { id: 1, description: 'Road', },
+      //     { id: 2, description: 'Section', },
+      //   ]
+      // },
+
+     
+
     }
   }
 </script>
