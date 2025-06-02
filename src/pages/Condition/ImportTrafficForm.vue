@@ -107,8 +107,9 @@ Description: form for bulk import/upload of road data.
       ...mapActions({
         importLog: 'ReferenceData/IMPORT_LOG_ALL',
         getImporttypes: 'LOAD_ALL_TRAFFIC_INSTALLATIONS',
+        getImportTemplate: 'GET_TRAFFIC_INSTALLATION_IMPORT_TEMPLATE',
       }),
-      ...mapActions(['GET_ROAD_IMPORT_TEMPLATE', 'GET_SECTION_IMPORT_TEMPLATE', 'IMPORT_ROAD', 'IMPORT_SECTION']),
+      ...mapActions(['GET_ROAD_IMPORT_TEMPLATE', 'GET_SECTION_IMPORT_TEMPLATE', 'IMPORT_ROAD', 'IMPORT_SECTION', `GET_TRAFFIC_INSTALLATION_IMPORT_TEMPLATE`]),
 
       onClose,
 
@@ -118,14 +119,14 @@ Description: form for bulk import/upload of road data.
         this.status = null
       },
 
-      async templateDownload() {
-        const importTemplate = `GET_${this.importTypeKey.toUpperCase()}_IMPORT_TEMPLATE`;
-        const res = await this[importTemplate]();
-        const link = document.createElement('a');
-        link.href = URL.createObjectURL(new Blob([res]));
-        link.download = `${this.importTypeKey}_import_template.xlsx`;
-        link.click();
-        URL.revokeObjectURL(link.href);
+     async templateDownload() {
+          const importTemplate = `GET_TRAFFIC_INSTALLATION_IMPORT_TEMPLATE`;
+          const res = await this[importTemplate]();
+          const link = document.createElement('a');
+          link.href = URL.createObjectURL(new Blob([res]));
+          link.download = `traffic_import_template444.xlsx`;
+          link.click();
+          URL.revokeObjectURL(link.href);
       },
 
       async validate() {
@@ -152,7 +153,7 @@ Description: form for bulk import/upload of road data.
         let formData = new FormData();
         formData.append('file', this.importFile)
         try {
-          const action = this[`IMPORT_${this.importTypeKey.toUpperCase()}`]
+          const action = this[`IMPORT_TRAFFIC_INSTALLATION_EXCEL`]
           const res = await action(formData)
           this.status = res.msg + ", " + res.result
           this.batch_id = res.batch_id
