@@ -26,6 +26,8 @@ const ConditionDataMenu = [
     name: 'Traffic_data',
     component: Traffic,
   },
+
+  // Ashi: This was old route. Commented to confirm that it is not used anymore.
   // { // Trafficimport
   //   path: 'import',
   //   name: 'import_traffic',

@@ -60,16 +60,18 @@ export const conditionApi = {
   },
 };
 
-
 export const trafficSiteApi = createApiMethods('/rdb/traffic_site', true);
 ///rdb/traffic_site/list,"GET"
 export const trafficInstallationApi = {
   ...createApiMethods('/rdb/traffic_installation', true, true, true),
 
+  // Get all traffic installations
   getAll() { return apiGet('/rdb/traffic_installation', 'all'); },
 
+  // Get traffic installation import template 
   getImportTemplate() { return apiGet('/rdb/traffic_installation', 'traffic_import_template', {}, false, 'blob'); },
   
+  // Import traffic installation data
   uploadTrafficInstallationFile(import_file, traffic_installation_id) {
     return apiPost(
       `/rdb/traffic_installation/traffic_import/?traffic_installation_id=${traffic_installation_id}`, 

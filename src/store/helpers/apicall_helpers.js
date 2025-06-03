@@ -1,47 +1,29 @@
 // store/apicall_helpers.js
+// single function to call different API's
 export async function handleApiCall({
-  request,
-  caller,
-  commit,
-  mutation,
+  request, // Promise
+  caller,  // Name of the calling method (for debugging)
+  commit,  // Optional: commit function
+  // TODO: remove mutation when standardize by SET_LIST 
+  mutation, // Optional: mutation name to be called by commit
   mutationKey,
-  expectedStatus = 200
+  expectedStatus = 200, // Expected status
 }) {
   try {
     const { status, data } = await request;
-
-    if (status === expectedStatus || expectedStatus === -1) {
-      if (commit && mutation) {
+    if (status === expectedStatus) {
+      if (commit && mutation) { // call mutation if provided
         commit(mutation, mutationKey ? { key: mutationKey, data } : data);
         return 'success';
       }
-      return data;
+      return data; // Return as data if no commit provided
     } else {
-      throw new Error(`Unexpected status: ${status}`);
+      throw new Error(`Error ${caller}: ${status}`);
     }
-
-  } catch (err) {
-    const response = err?.response;
-    const msg =
-      response?.data?.msg ||
-      response?.data?.detail ||
-      response?.statusText ||
-      err?.message ||
-      'Unknown error';
-
-    // ✅ Print full error context for debugging
-    console.error(`API ${caller} failed`, {
-      url: response?.config?.url || err?.config?.url,
-      method: response?.config?.method || err?.config?.method,
-      status: response?.status,
-      data: response?.data,
-      error: msg
-    });
-
-    throw new Error(`Error ${caller}: ${msg}`);
+  } catch ({ response }) { // Error handling
+    throw new Error(response?.data?.msg || response?.data?.message || `Failed: ${caller}`);
   }
 };
-
 
 export async function apiCall(request, caller, expectedStatus = 200) {
   // Simplified version for calling API's

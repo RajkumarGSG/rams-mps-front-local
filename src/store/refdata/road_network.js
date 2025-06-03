@@ -23,7 +23,6 @@ const sectionGeometryActions = createActions(sectionGeometryApi, 'SECTION_GEOMET
 
 const conditionActions = createActions(conditionApi, 'CONDITION', 201);
 const trafficSiteActions = createActions(trafficSiteApi, 'TRAFFIC_SITE', 201);
-// const trafficInstallationActions = createActions(trafficInstallationApi, 'TRAFFIC_INSTALLATION');
 
 const homoSectionActions = createActions(homoSectionApi, 'HOMO_SECTION', 201);
 
@@ -57,8 +56,7 @@ export default {
 
     ...conditionActions,
     ...trafficSiteActions,
-    // ...trafficInstallationActions,
-
+    
     ...homoSectionActions,
 
     // Additional actions for Roads
@@ -71,20 +69,24 @@ export default {
     },
 
     // Additional actions for Traffic Installation
+
+    // Get all traffic installations
     async LOAD_ALL_TRAFFIC_INSTALLATIONS({ commit }) {
       return await apiCall(trafficInstallationApi.getAll(), 'LOAD_ALL_TRAFFIC_INSTALLATIONS');
     },
 
+    // Get traffic installation import template
     async GET_TRAFFIC_INSTALLATION_IMPORT_TEMPLATE({ commit }) {
       return await apiCall(trafficInstallationApi.getImportTemplate(), 'GET_TRAFFIC_INSTALLATION_IMPORT_TEMPLATE');
     },
 
-   async IMPORT_TRAFFIC_INSTALLATION_EXCEL({ commit }, { formData, trafficInstallationId }) {
-      return await apiCall(
-        trafficInstallationApi.uploadTrafficInstallationFile(formData, trafficInstallationId),
-        'IMPORT_TRAFFIC_INSTALLATION_EXCEL',
-        201
-      );
+    // Import traffic installation data
+    async IMPORT_TRAFFIC_INSTALLATION_EXCEL({ commit }, { formData, trafficInstallationId }) {
+        return await apiCall(
+          trafficInstallationApi.uploadTrafficInstallationFile(formData, trafficInstallationId),
+          'IMPORT_TRAFFIC_INSTALLATION_EXCEL',
+          201
+        );
     },
 
     // Additional actions for Sections
