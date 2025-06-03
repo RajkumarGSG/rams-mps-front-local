@@ -138,58 +138,44 @@ Description: form for bulk import/upload of road data.
       },
 
       async validate() {
-       
-        const fileInfo = `${this.$t('stdCols.name')}: ${this.importFile.name},
-                          ${this.$t('upload.filesize', { size: this.importFile.size })}`
-        let errors = []
-        if (this.importFile.type.includes("image")) {
-          errors.push(`${errors.length + 1}. ${this.$t('messages.wrong_file_type')}`)
+        if (!this.selectedImportType) {
+          this.$toast?.error?.('Please select an import type');
+          return;
         }
-        if (this.importFile.size > this.maxFileSize) {
-          errors.push(`${errors.length + 1}. ${this.$t('messages.big_file')}`)
-        }
-
-        if (errors.length > 0) {
-          errors.push('', fileInfo)
-          await errorMessage(errors.join('<br>'))
-          return
-        }
-
-        this.uploadInProgress = true
 
         let formData = new FormData();
-        formData.append('file', this.importFile)
-
+        formData.append('file', this.importFile);
 
         try {
-          if (!this.selectedImportType) {
-            this.$toast?.error?.('Please select an import type');
-            return;
-          }
+          console.log('Before API call');
+          const res = await this.IMPORT_TRAFFIC_INSTALLATION_EXCEL({
+            formData,
+            trafficInstallationId: this.selectedImportType
+          });
+          console.log('After API call', res);
 
+          this.status = res.msg + ", " + res.result;
+          this.batch_id = res.batch_id;
 
-          const action = this[`IMPORT_TRAFFIC_INSTALLATION_EXCEL`]
-          
-          const res = await action({ 
-                  formData: formData, 
-                  trafficInstallationId: this.selectedImportType })
+          console.log('Before successMessage');
+          await successMessage(this.$t('route.import'), this.$t(`messages.import_file_queued`));
+          console.log('After successMessage');
 
-          console.log('Import response', res)
+          this.importFile = null;
+          this.fileName.name = '';
 
-          this.status = res.msg + ", " + res.result
-          this.batch_id = res.batch_id
-          await successMessage(this.$t('route.import'), this.$t(`messages.import_file_queued`))
-          this.importFile = null
-          this.fileName.name = ''
-        } catch (err) {
-          this.status = err.msg
-          this.batch_id = err.batch_id
-          console.log('batch_id', err.batch_id)
-          await errorMessage(this.$t(`errors.import_error`))
+          console.log('Before get_log');
+          await this.get_log(this.batch_id);
+          console.log('After get_log');
+
+          this.uploadInProgress = false;
+          this.showPreview = true;
+
+        } catch (error) {
+          console.error('Error during import:', error);
+          this.uploadInProgress = false;
+          await errorMessage(this.$t('errors.import_error'));
         }
-        this.get_log(this.batch_id)
-        this.uploadInProgress = false
-        this.showPreview = true
       },
 
       async get_log(batch_id) {

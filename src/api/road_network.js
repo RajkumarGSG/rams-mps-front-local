@@ -60,6 +60,7 @@ export const conditionApi = {
   },
 };
 
+
 export const trafficSiteApi = createApiMethods('/rdb/traffic_site', true);
 ///rdb/traffic_site/list,"GET"
 export const trafficInstallationApi = {
@@ -68,14 +69,14 @@ export const trafficInstallationApi = {
   getAll() { return apiGet('/rdb/traffic_installation', 'all'); },
 
   getImportTemplate() { return apiGet('/rdb/traffic_installation', 'traffic_import_template', {}, false, 'blob'); },
-
-  uploadTrafficInstallationFile(file, traffic_installation_id) {
+  
+  uploadTrafficInstallationFile(import_file, traffic_installation_id) {
     return apiPost(
-      `/rdb/traffic_installation/traffic_import/?traffic_installation_id=${traffic_installation_id}`,
-      file,
+      `/rdb/traffic_installation/traffic_import/?traffic_installation_id=${traffic_installation_id}`, 
+      import_file, 
       'form'
     );
-  }
+  },
 };
 ///rdb/traffic_installation/traffic-site/<int:traffic_site_id>,"GET"
 

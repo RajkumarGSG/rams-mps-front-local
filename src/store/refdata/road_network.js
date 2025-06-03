@@ -23,7 +23,7 @@ const sectionGeometryActions = createActions(sectionGeometryApi, 'SECTION_GEOMET
 
 const conditionActions = createActions(conditionApi, 'CONDITION', 201);
 const trafficSiteActions = createActions(trafficSiteApi, 'TRAFFIC_SITE', 201);
-const trafficInstallationActions = createActions(trafficInstallationApi, 'TRAFFIC_INSTALLATION');
+// const trafficInstallationActions = createActions(trafficInstallationApi, 'TRAFFIC_INSTALLATION');
 
 const homoSectionActions = createActions(homoSectionApi, 'HOMO_SECTION', 201);
 
@@ -57,7 +57,7 @@ export default {
 
     ...conditionActions,
     ...trafficSiteActions,
-    ...trafficInstallationActions,
+    // ...trafficInstallationActions,
 
     ...homoSectionActions,
 
@@ -82,21 +82,10 @@ export default {
    async IMPORT_TRAFFIC_INSTALLATION_EXCEL({ commit }, { formData, trafficInstallationId }) {
       return await apiCall(
         trafficInstallationApi.uploadTrafficInstallationFile(formData, trafficInstallationId),
-        'IMPORT_TRAFFIC_INSTALLATION_EXCEL'
+        'IMPORT_TRAFFIC_INSTALLATION_EXCEL',
+        201
       );
     },
-
-    
-    // async IMPORT_TRAFFIC_INSTALLATION_EXCEL({ commit }, { formData, trafficInstallationId }) {
-    //   return await apiCall(trafficInstallationApi.importData(formData, trafficInstallationId), 'IMPORT_TRAFFIC_INSTALLATION_EXCEL', 201);
-    // },
-
-    // async IMPORT_TRAFFIC_INSTALLATION_EXCEL({ commit }, { formData, trafficInstallationId }) {
-    //   const url = trafficInstallationApi.importData(trafficInstallationId); // e.g. builds: /rdb/traffic_installation/traffic_import/?traffic_installation_id=1
-    //   console.log('url:', url);
-    //   // return await apiCall(url, 'IMPORT_TRAFFIC_INSTALLATION_EXCEL', formData, 'post');
-    //   return await apiCall(url, 'IMPORT_TRAFFIC_INSTALLATION_EXCEL', 201);
-    // },
 
     // Additional actions for Sections
     async GET_REGION_ROAD_FROM_SECTION({ commit }, section_id) {
