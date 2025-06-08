@@ -38,7 +38,8 @@ Description: shows panel with possibility to select the reports.
           { url: '/reports/10_section_wise_aadt', name: 'route.report_section_wise_aadt' },
           { url: '/reports/11_total_elevation_zones', name: 'route.report_total_elevation_zones' },
           { url: '/reports/12_road_length_in_elevation_zones', name: 'route.report_road_length_in_elevation_zones' },
-          { url: '/reports/13_patching_details', name: 'route.report_patching_details' }
+          { url: '/reports/13_patching_details', name: 'route.report_patching_details' },
+          { url: '/reports/14_survey_data_reconciliation_report', name: 'route.report_survey_data_reconciliation' }
         ]
       };
     },

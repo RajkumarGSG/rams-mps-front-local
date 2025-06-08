@@ -736,7 +736,14 @@
     "aadt_total": "Бардыгы",
     "aadt_d2_truck_tr": "Жүк ташуучу чиркегичтер",
     "aadt_d3_ar4tr_tr": "Автопоезддер",
-    "traffic_site": "Сурамжылоо участогу"
+    "traffic_site": "Сурамжылоо участогу",
+    "road_key": "Жолдун коду",
+    "section_id": "Бөлүм ID",
+    "section_description": "Бөлүмдүн сүрөттөмөсү",
+    "length_km": "Узундугу (км)",
+    "iri_length_km": "IRI узундугу (км)",
+    "rutting_length_km": "Рутинг узундугу (км)",
+    "distress_length_km": "Бузулуу узундугу (км)"
   },
   "reports": {
     "report3_title": "Жолдордун узундугу",

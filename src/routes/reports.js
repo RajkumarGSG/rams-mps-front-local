@@ -15,6 +15,7 @@ const Report_10_Section_wise_AADT = () => import('@/pages/Reports/Report_10_Sect
 const Report_11_TotalElevationZones = () => import('@/pages/Reports/Report_11_TotalElevationZones.vue')
 const Report_12_RoadLengthByElevationZones = () => import('@/pages/Reports/Report_12_RoadLengthByElevationZones.vue')
 const Report_PatchingDetails = () => import('@/pages/Reports/Report_PatchingDetails.vue')
+const Report_14_SurveyDataReconciliation = () => import('@/pages/Reports/Report_14_SurveyDataReconciliation.vue')
 
 const ReportsMenu = [
   {
@@ -81,6 +82,11 @@ const ReportsMenu = [
     path: '13_patching_details',
     name: 'report_patching_details',
     component: Report_PatchingDetails,
+  },
+  {
+    path: '14_survey_data_reconciliation_report',
+    name: 'report_survey_data_reconciliation',
+    component: Report_14_SurveyDataReconciliation,
   }
 ]
 

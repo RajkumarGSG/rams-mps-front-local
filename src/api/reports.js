@@ -94,4 +94,13 @@ export default {
     }));
     return { status: 200, data };
   },
+
+  // Report 14: Survey Data Reconciliation (Please note that the number in API is 11, but in the app it is 14)
+  report_11_survey_data_reconciliation(survey_year) {
+    return apiGet(
+      reportsPath,
+      "report_11_survey_data_reconciliation",
+      { survey_year }
+    );
+  }
 };

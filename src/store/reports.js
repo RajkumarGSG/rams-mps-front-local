@@ -20,6 +20,7 @@ export default {
     report_10_data: [],   // section_wise_aadt
     report_11_data: [],   // total_elevation_zones
     report_12_data: [],   // road_length_by_elevation_zones
+    report_14_data: [],   // Survey_data_reconciliation
   },
 
   actions: {
@@ -144,6 +145,17 @@ export default {
         mutationKey: 12
       });
    },
+   
+    async REPORT_14_SURVEY_DATA_RECONCILIATION({ commit }, values) {
+      const { survey_year } = values
+      console.log('survey_year in reports.js', survey_year)
+      return await handleApiCall({
+        request: Api.report_11_survey_data_reconciliation(survey_year),
+        caller: 'REPORT_14_SURVEY_DATA_RECONCILIATION',
+        commit, mutation: 'SET_REPORT',
+        mutationKey: 14
+      });
+   }
   },
 
   mutations: {
@@ -205,6 +217,22 @@ export default {
       return filteredRows
     },
 
+  report14_notNull: (state) => {
+    return state.report_14_data.filter(row => {
+      const nonEmptyFields = [
+        row.survey_year,
+        row.road_key,
+        row.section_id,
+        row.section_description,
+        row.length_km,
+        row.iri_length_km,
+        row.rutting_length_km,
+        row.distress_length_km
+      ].filter(field => field !== null && field !== undefined && field !== 0);
+      return nonEmptyFields.length >= 5; // adjusted threshold
+    });
+  },
+
     report10_filtered: (state, getters) => (region_id, road_id, year) => {
       return getters.report10_notNull.filter(el =>
         (!region_id || el.region_id === region_id) &&  // Проверка на регион (если передан)
@@ -213,12 +241,22 @@ export default {
       )
     },
 
+    report14_filtered: (state, getters) => (year) => { // region_id, road_id, 
+      return getters.report14_notNull.filter(el =>
+        (!year || el.survey_year === year)           // Проверка на год (если передан)
+      )
+    },
     roadsInReport10: (state, getters) => (region_id) => {
       return getUniqueValues(getters.report10_filtered(region_id), 'road_description', 'road_id', true);
     },
-
+    
+    
     yearsInReport10: (state, getters) => (region_id, road_id) => {
       return getUniqueValues(getters.report10_filtered(region_id, road_id), 'survey_year', 'survey_year', true);
+    },
+
+    yearsInReport14: (state, getters) => () => {
+      return getUniqueValues(getters.load_years_dropdown_list(), 'survey_year', 'survey_year', true);
     },
 
     report_11_total: (state) => {

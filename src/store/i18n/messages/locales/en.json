@@ -736,7 +736,14 @@
     "aadt_total": "Total",
     "aadt_d2_truck_tr": "Truck-traler",
     "aadt_d3_ar4tr_tr": "Articulated truck ",
-    "traffic_site": "Traffic site"
+    "traffic_site": "Traffic site",
+    "road_key": "Road key",
+    "section_id": "Section ID",
+    "section_description": "Section description",
+    "length_km": "Length (km)",
+    "iri_length_km": "IRI length (km)",
+    "rutting_length_km": "Rutting length (km)",
+    "distress_length_km": "Distress length (km)"
   },
   "reports": {
     "report3_title": "Road length in",
@@ -756,6 +763,7 @@
     "approve": "Approve",
     "report10_title": "Section wise AADT",
     "report4_title": "Road Length (in Km) by Traffic Intensity",
-    "report6_title": "List of Road Sections"
+    "report6_title": "List of Road Sections",
+    "report14_title": "Survey Data Reconciliation"
   }
 }
