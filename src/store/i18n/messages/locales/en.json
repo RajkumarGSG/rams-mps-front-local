@@ -408,7 +408,8 @@
     "reference_data": "Reference data",
     "report_roads_list": "Roads per region",
     "report_region_wise_condition": "Region wise condition",
-    "import_traffic": "Import Traffic Data"
+    "import_traffic": "Import Traffic Data",
+    "report_survey_data_reconciliation": "Survey Data Reconciliation Report"
   },
   "translate": {
     "key": "Key",

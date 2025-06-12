@@ -408,7 +408,8 @@
     "reference_data": "Справочные данные",
     "report_roads_list": "Списки дорог по регионам",
     "report_region_wise_condition": "Состояние дорог по регионам",
-    "import_traffic": "Импортировать данные о трафике"
+    "import_traffic": "Импортировать данные о трафике",
+    "report_survey_data_reconciliation": "Отчет о согласовании данных опроса"
   },
   "translate": {
     "key": "Ключ",
