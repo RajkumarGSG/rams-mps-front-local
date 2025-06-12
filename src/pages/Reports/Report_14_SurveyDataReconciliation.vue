@@ -32,7 +32,7 @@ Description: produce report showing Region/DEU-wise Condition index.
           :md-description="$t('messages.select_surveyyear_criteria')" />
         <md-table-row slot="md-table-row" slot-scope="{ item }">
           <md-table-cell :md-label="$t('label.survey_year')" md-sort-by="survey_year" md-numeric>
-            {{ item.survey_year | numFormat  }}
+            {{ item.survey_year }}
           </md-table-cell>
 
           <md-table-cell :md-label="$t('traffic.road_key')" md-sort-by="road_key">
@@ -40,7 +40,7 @@ Description: produce report showing Region/DEU-wise Condition index.
           </md-table-cell>
 
           <md-table-cell :md-label="$t('traffic.section_id')" md-sort-by="section_id" md-numeric>
-            {{ item.section_id | numFormat }}
+            {{ item.section_id }}
           </md-table-cell>
 
           <md-table-cell :md-label="$t('traffic.section_description')" md-sort-by="section_description">
@@ -48,19 +48,19 @@ Description: produce report showing Region/DEU-wise Condition index.
           </md-table-cell>
 
           <md-table-cell :md-label="$t('traffic.length_km')" md-sort-by="length_km" md-numeric>
-            {{ item.length_km | numFormat }}
+            {{ item.length_km | numFormat(3) }}
           </md-table-cell>
 
           <md-table-cell :md-label="$t('traffic.iri_length_km')" md-sort-by="iri_length_km" md-numeric>
-            {{ item.iri_length_km | numFormat }}
+            {{ item.iri_length_km | numFormat(3) }}
           </md-table-cell>
 
           <md-table-cell :md-label="$t('traffic.rutting_length_km')" md-sort-by="rutting_length_km" md-numeric>
-            {{ item.rutting_length_km | numFormat }}
+            {{ item.rutting_length_km  | numFormat(3) }}
           </md-table-cell>
 
           <md-table-cell :md-label="$t('traffic.distress_length_km')" md-sort-by="distress_length_km" md-numeric>
-            {{ item.distress_length_km | numFormat }}
+            {{ item.distress_length_km | numFormat(3) }}
           </md-table-cell>
         </md-table-row>
       </md-table>
