@@ -29,7 +29,7 @@ Description: produce report showing Region/DEU-wise Condition index.
       <md-table class="paginated-table table-striped table-hover" :value="report" :md-sort.sync="currentSort"
         :md-sort-order.sync="currentSortOrder" :md-sort-fn="customSort" md-fixed-header>
         <md-table-empty-state :md-label="$t('label.no_data')"
-          :md-description="$t('messages.select_another_criteria')" />
+          :md-description="$t('messages.select_surveyyear_criteria')" />
         <md-table-row slot="md-table-row" slot-scope="{ item }">
           <md-table-cell :md-label="$t('label.survey_year')" md-sort-by="survey_year" md-numeric>
             {{ item.survey_year | numFormat  }}
@@ -113,42 +113,20 @@ export default {
   },
 
   async mounted() {
-    console.log('Report_14_SurveyDataReconciliation mounted');
-   // this.clearReport(14); // Clear previous report data
 
     this.eligible = await this.checkIfScreenAllowed();
     this.eligible = true; // TODO: revert later
-
-    console.log('Report_14_SurveyDataReconciliation.mounted() eligible:', this.eligible);
     
     if (!this.eligible) {
       this.onClose();
       return;
     }
     
-    // console.log('loadSurveyYears() called to load survey years');
-    // const response = await this.loadSurveyYears();
-    // console.log('loadSurveyYears() response:', response.data);
-
-    // // Defensive check
-    // if (response && Array.isArray(response.data)) {
-    //   this.yearList = response.data;
-    // } else {
-    //   this.yearList = [];  // fallback empty array
-    // }
-
-    console.log('mounted() Survey years loaded:', this.yearList);
-
-    // if (this.selectedYear == null && this.yearList.length > 0) {
-    //   this.selectedYear = this.yearList[0];
-    // }
+    await this.clearReport(14); // Clear report data before loading new data
   },
   
   beforeDestroy() {
-    console.log('Report_14_SurveyDataReconciliation beforeDestroy');
-    // this.stopPolling()
     this.clearReport(14); // Clear report data on component destroy
-    console.log('Report_14_SurveyDataReconciliation beforeDestroy: cleared report(14)');
   },
 
   methods: {
@@ -160,16 +138,15 @@ export default {
     onClose,
 
    async reloadData() {
-      console.log('Report_14_SurveyDataReconciliation reloadData() called with selectedYear:', this.selectedYear);
-      
+
       this.showSpinner = true;
       this.btnDisabled = true;
 
       const report_params = { survey_year: this.selectedYear };
+
       try {
-        console.log('Report_14_SurveyDataReconciliation reloadData() report_params:', report_params);
         await this.loadReportData(report_params);
-        console.log('Report_14_SurveyDataReconciliation reloadData() report loaded:', this.report);
+
       } finally {
         this.showSpinner = false;
         this.btnDisabled = false;
@@ -177,22 +154,20 @@ export default {
     },
 
     print() {
-      console.log('Report_14_SurveyDataReconciliation print() called');
+
       this.showSpinner = true
+
       this.printReport(this.getPrintHeader, this.getTableHeaders, this.getTableRows)
+
       this.showSpinner = false
-      console.log('Report_14_SurveyDataReconciliation print() completed');
+
     },
 
     fillWorkSheet(workbook, workbookName) {
-      console.log('Report_14_SurveyDataReconciliation fillWorkSheet() called');
       this.generateWorkSheet(workbook, workbookName, this.$t('reports.report14_title'), this.report);
-      console.log('Report_14_SurveyDataReconciliation fillWorkSheet() completed');
     },
 
     async exportToExcel() {
-      console.log('Report_14_SurveyDataReconciliation exportToExcel() called');
-
       // Create new Excel file
       const workbook = new ExcelJS.Workbook();
       const wbName = this.$t('reports.report14_title')
@@ -202,18 +177,13 @@ export default {
       const buffer = await workbook.xlsx.writeBuffer();
       const blob = new Blob([buffer], { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' });
       saveAs(blob, `${wbName}.xlsx`);
-
-      console.log('Report_14_SurveyDataReconciliation exportToExcel() completed');
     },
 
     onYearSelected(value) {
-      console.log('Report_14_SurveyDataReconciliation onYearSelected() called with value:', value);
       this.selectedYear = value;
-      console.log('Report_14_SurveyDataReconciliation onYearSelected() selectedYear:', this.selectedYear);
     },
 
     async customSort(value, secondarySort, tertiarySort) {
-      console.log('Report_14_SurveyDataReconciliation customSort() called with value:', value);
       this.showSpinner = true;
 
       // Let Vue update the DOM before sorting begins (so the loader appears)
@@ -227,7 +197,6 @@ export default {
 
       this.showSpinner = false
 
-      console.log('Report_14_SurveyDataReconciliation customSort() completed');
       return result
     }
 
@@ -235,21 +204,12 @@ export default {
 
   computed: {
     ...mapGetters(['report14_filtered']),
-// , 'yearsInReport14'
 
     report() {
-      console.log('Report_14_SurveyDataReconciliation report computed property called. this.selectedYear:', this.selectedYear);
       return this.report14_filtered(this.selectedYear) 
-      console.log('Report_14_SurveyDataReconciliation report computed property returning:', this.report);
     },
 
-
-    // yearsList() {
-    //   return this.yearsInReport14();
-    // },
-
     emptyData() {
-      console.log('Report_14_SurveyDataReconciliation emptyData computed property called. this.report.length:', this.report.length);
       return this.report.length == 0
     },
 
@@ -297,9 +257,7 @@ export default {
 
   watch: {
     selectedYear(newVal) {
-      console.log('Report_14_SurveyDataReconciliation watch selectedYear called with newVal:', newVal);
       if (newVal) {
-        console.log('Report_14_SurveyDataReconciliation watch selectedYear: calling reloadData');
         this.reloadData();
       }
     }

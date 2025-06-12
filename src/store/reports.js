@@ -243,7 +243,7 @@ export default {
 
     report14_filtered: (state, getters) => (year) => { // region_id, road_id, 
       return getters.report14_notNull.filter(el =>
-        (!year || el.survey_year === year)           // Проверка на год (если передан)
+        (el.survey_year === year)           // Проверка на год (если передан)
       )
     },
     roadsInReport10: (state, getters) => (region_id) => {

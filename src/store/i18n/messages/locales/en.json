@@ -258,7 +258,8 @@
     "generated_hs_list_exists": "The generated list with same parameters already exists.<br><br>You need to use it or delete the previous list first and re-generate list again.",
     "list_is_not_empty": "The list is not empty!<br><br>Are you sure you want to clear the list and re-populate it?",
     "recovery_mail_was_sent": "Your new password was sent to the indicated email",
-    "assigned_treatments_exist": "For the selected year and region there are some already assigned treatment works!<br><br>If you wand to delete it and reassign select \"Yes\". If you want to assign additional treatments select \"No\"."
+    "assigned_treatments_exist": "For the selected year and region there are some already assigned treatment works!<br><br>If you wand to delete it and reassign select \"Yes\". If you want to assign additional treatments select \"No\".",
+    "select_surveyyear_criteria": "Try to select a survey year"
   },
   "screen_titles": {
     "translation_upd": "Edit translation",
