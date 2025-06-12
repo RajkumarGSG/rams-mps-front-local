@@ -407,7 +407,8 @@
     "routine_maintenance": "Routine maintenance",
     "reference_data": "Reference data",
     "report_roads_list": "Roads per region",
-    "report_region_wise_condition": "Region wise condition"
+    "report_region_wise_condition": "Region wise condition",
+    "import_traffic": "Import Traffic Data"
   },
   "translate": {
     "key": "Key",

@@ -407,7 +407,8 @@
     "routine_maintenance": "Регулярное обслуживание",
     "reference_data": "Справочные данные",
     "report_roads_list": "Списки дорог по регионам",
-    "report_region_wise_condition": "Состояние дорог по регионам"
+    "report_region_wise_condition": "Состояние дорог по регионам",
+    "import_traffic": "Импортировать данные о трафике"
   },
   "translate": {
     "key": "Ключ",

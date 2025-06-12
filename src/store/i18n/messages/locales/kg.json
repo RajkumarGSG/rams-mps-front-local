@@ -407,7 +407,8 @@
     "routine_maintenance": "Күнүмдүк тейлөө",
     "reference_data": "Шилтеме маалыматтар",
     "report_roads_list": "Облустар ​​боюнча жолдордун тизмеси",
-    "report_region_wise_condition": "Участоктор ​​боюнча жол абалдары"
+    "report_region_wise_condition": "Участоктор ​​боюнча жол абалдары",
+    "import_traffic": "Жол кыймылынын маалыматтарын импорттоо"
   },
   "translate": {
     "key": "Негизи",
