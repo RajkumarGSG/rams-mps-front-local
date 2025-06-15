@@ -10,14 +10,12 @@ Description: produce report showing Region/DEU-wise Condition index.
           <YearsDropdown :label="$t('label.survey_year')" v-model="selectedYear" :items="yearList" @input="onYearSelected" />
         </div>
         <div class="md-layout-item btn-row md-small-size-100">
-          <md-button class="md-success" @click="print" 
+          <md-button class="md-success" @click="print" v-if="isBtnAllowed('PrintButton')"
             :disabled="btnDisabled || emptyData">
-            <!-- v-if="isBtnAllowed('PrintButton')"  -->
             {{ $t('buttons.print') }}
           </md-button>
-          <md-button class="md-raised md-success" @click="exportToExcel"
+          <md-button class="md-raised md-success" @click="exportToExcel" v-if="isBtnAllowed('ExportButton')"
             :disabled="btnDisabled">
-            <!-- v-if="isBtnAllowed('ExportButton')"  -->
             {{ $t('buttons.excel_export') }}
           </md-button>
         </div>
@@ -95,7 +93,7 @@ export default {
   mixins: [permissions, customSortMixin, printReport],
   data() {
     return {
-      formName: 'Report_14_SurveyDataReconciliation',
+      formName: 'Report_14',
       eligible: false,
 
       selectedYear: null,
@@ -115,7 +113,6 @@ export default {
   async mounted() {
 
     this.eligible = await this.checkIfScreenAllowed();
-    this.eligible = true; // TODO: revert later
     
     if (!this.eligible) {
       this.onClose();
