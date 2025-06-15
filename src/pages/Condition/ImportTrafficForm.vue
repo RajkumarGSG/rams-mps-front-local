@@ -147,26 +147,20 @@ Description: form for bulk import/upload of road data.
         formData.append('file', this.importFile);
 
         try {
-          console.log('Before API call');
           const res = await this.IMPORT_TRAFFIC_INSTALLATION_EXCEL({
             formData,
             trafficInstallationId: this.selectedImportType
           });
-          console.log('After API call', res);
 
           this.status = res.msg + ", " + res.result;
           this.batch_id = res.batch_id;
 
-          console.log('Before successMessage');
           await successMessage(this.$t('route.import'), this.$t(`messages.import_file_queued`));
-          console.log('After successMessage');
 
           this.importFile = null;
           this.fileName.name = '';
 
-          console.log('Before get_log');
           await this.get_log(this.batch_id);
-          console.log('After get_log');
 
           this.uploadInProgress = false;
           this.showPreview = true;
@@ -181,7 +175,6 @@ Description: form for bulk import/upload of road data.
       async get_log(batch_id) {
         if (!batch_id) return
         const res = await this.importLog(batch_id)
-        console.log('Import status', res, this.importStatus)
       },
 
       onImportTypeChange(key, desc) {
@@ -192,7 +185,6 @@ Description: form for bulk import/upload of road data.
      async fetchTrafficInstallList() {
         try {
           const res = await this.LOAD_ALL_TRAFFIC_INSTALLATIONS()
-          console.log('Traffic Installations Response:', res)
 
           if (Array.isArray(res)) {
             this.importTypesList = res.map(item => ({
@@ -236,18 +228,6 @@ Description: form for bulk import/upload of road data.
       uploadDisabled() {
         return this.importFile === null || this.uploadInProgress === true
       }
-
-      // importTypesList() {
-      //   // TODO: Move to the RDB_Lookup table
-      //   return [
-      //     { id: 0, description: '', },
-      //     { id: 1, description: 'Road', },
-      //     { id: 2, description: 'Section', },
-      //   ]
-      // },
-
-     
-
     }
   }
 </script>
